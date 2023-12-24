@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LTHDotNetCore.RestApi.props" />
+</Project>

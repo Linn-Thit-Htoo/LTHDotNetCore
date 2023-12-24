@@ -1,0 +1,5 @@
+D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\LTHDotNetCore.ConsoleApp.csproj.AssemblyReference.cache
+D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\LTHDotNetCore.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\LTHDotNetCore.ConsoleApp.AssemblyInfoInputs.cache
+D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\LTHDotNetCore.ConsoleApp.AssemblyInfo.cs
+D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\LTHDotNetCore.ConsoleApp.csproj.CoreCompileInputs.cache

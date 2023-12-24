@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gXy8OI3ZakMVu1p2AZuLh9uk9oxzvNH3bBgSHT4X+gc=",
+  "Source": "LTHDotNetCore.RestApi",
+  "BasePath": "_content/LTHDotNetCore.RestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
