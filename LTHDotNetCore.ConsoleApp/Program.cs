@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LTHDotNetCore.ConsoleApp.HttpClientExamples;
+using LTHDotNetCore.ConsoleApp.RestClientExamples;
+
+//HttpClientExample httpClientExample = new HttpClientExample();
+//await httpClientExample.Run();
+
+RestClientExample restClientExample = new RestClientExample();
+await restClientExample.Run();

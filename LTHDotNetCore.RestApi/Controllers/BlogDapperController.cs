@@ -61,7 +61,7 @@ namespace LTHDotNetCore.RestApi.Controllers
   FROM [dbo].[Tbl_blog]
   WHERE Blog_Id = @Blog_Id;";
                 using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
-                BlogDataModel? item = db.Query<BlogDataModel>(query,new {BlogId = id}).FirstOrDefault();
+                BlogDataModel? item = db.Query<BlogDataModel>(query,new {Blog_Id = id}).FirstOrDefault();
 
                 if (item is null)
                 {
