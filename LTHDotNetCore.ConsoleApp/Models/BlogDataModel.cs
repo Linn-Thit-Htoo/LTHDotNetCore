@@ -12,5 +12,10 @@ namespace LTHDotNetCore.ConsoleApp.Models
         public string Blog_Title { get; set; }
         public string Blog_Author { get; set; }
         public string Blog_Content { get; set; }
+
+        public static implicit operator BlogDataModel(List<BlogDataModel> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
