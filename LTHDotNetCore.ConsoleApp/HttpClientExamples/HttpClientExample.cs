@@ -16,11 +16,11 @@ namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
         public async Task Run()
         {
             //await Read();
-            await Edit(1);
+            await Edit(6);
             //await Create("Http client", "hHttp author", "Http Content");
             //await Update(10, "Http title edited", "http author edited", "http content edited");
             //await Patch(10, "Http title patched", "http author patched");
-            await Delete(1);
+            //await Delete(1);
         }
 
         #region Read
