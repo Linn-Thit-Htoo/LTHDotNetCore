@@ -1,0 +1,15 @@
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\bin\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.exe
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\bin\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.deps.json
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\bin\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.runtimeconfig.json
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\bin\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.dll
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\bin\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.pdb
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.csproj.AssemblyReference.cache
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.AssemblyInfoInputs.cache
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.AssemblyInfo.cs
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.csproj.CoreCompileInputs.cache
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.dll
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\refint\LTHDotNetCore.AtmConsoleApp.dll
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.pdb
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\LTHDotNetCore.AtmConsoleApp.genruntimeconfig.cache
+D:\LTHDotNetCore\LTHDotNetCore.AtmConsoleApp\obj\Debug\net7.0\ref\LTHDotNetCore.AtmConsoleApp.dll

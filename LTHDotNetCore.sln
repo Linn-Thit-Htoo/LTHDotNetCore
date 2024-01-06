@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.ConsoleApp", "LTHDotNetCore.ConsoleApp\LTHDotNetCore.ConsoleApp.csproj", "{092FB85C-14FE-4218-A3BC-911DDD1F52A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.ConsoleApp", "LTHDotNetCore.ConsoleApp\LTHDotNetCore.ConsoleApp.csproj", "{092FB85C-14FE-4218-A3BC-911DDD1F52A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.RestApi", "LTHDotNetCore.RestApi\LTHDotNetCore.RestApi.csproj", "{B6C59561-6425-4CED-BE31-06FE53A38C46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.RestApi", "LTHDotNetCore.RestApi\LTHDotNetCore.RestApi.csproj", "{B6C59561-6425-4CED-BE31-06FE53A38C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.AtmConsoleApp", "LTHDotNetCore.AtmConsoleApp\LTHDotNetCore.AtmConsoleApp.csproj", "{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B6C59561-6425-4CED-BE31-06FE53A38C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C59561-6425-4CED-BE31-06FE53A38C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C59561-6425-4CED-BE31-06FE53A38C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
