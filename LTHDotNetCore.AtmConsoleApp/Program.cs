@@ -59,8 +59,11 @@ namespace LTHDotNetCore.LTHDotNetCore.AtmConsoleApp
             this.balance = balance;
         }
     }
+
+    
     public class PrintOption
     {
+        #region Print Options
         public static void PrintOptions()
         {
             Console.WriteLine("\nPlease choose at least one option...");
@@ -69,7 +72,9 @@ namespace LTHDotNetCore.LTHDotNetCore.AtmConsoleApp
             Console.WriteLine("3. Show Balance");
             Console.WriteLine("4. Exit");
         }
+        #endregion
     }
+
     public class Bank
     {
         #region Deposit
@@ -97,7 +102,7 @@ namespace LTHDotNetCore.LTHDotNetCore.AtmConsoleApp
         {
             Console.WriteLine("\nEnter the amount you would like to withdraw: ");
 
-            if(double.TryParse(Console.ReadLine(), out double withdrawAmount))
+            if (double.TryParse(Console.ReadLine(), out double withdrawAmount))
             {
                 double totalBalance = currentUser.GetBalance();
 
@@ -130,6 +135,19 @@ namespace LTHDotNetCore.LTHDotNetCore.AtmConsoleApp
     }
     public class Program
     {
+        #region Sleep
+        public static void Sleep(int seconds)
+        {
+            // Countdown timer during the wait
+            for (int i = seconds; i > 0; i--)
+            {
+                Console.Write($"\rRemaining time: {i} seconds");
+                Thread.Sleep(1000); // Sleep for 1 second
+            }
+        }
+        #endregion
+
+        #region Main method
         public static void Main(String[] args)
         {
             List<CardHolder> users = new List<CardHolder>()
@@ -158,27 +176,40 @@ namespace LTHDotNetCore.LTHDotNetCore.AtmConsoleApp
 
             // enter pin as long as the pin is correct
             string? userPin = "";
+            int count = 0;
+
             while (true)
             {
-                Console.WriteLine("\nPlease enter pin: ");
-                userPin = Console.ReadLine();
-
-                if (int.TryParse(userPin, out int pinAsInt))
+                if (count == 3)
                 {
-                    currentUser = users.FirstOrDefault(x => x.GetPin() == pinAsInt);
-
-                    if (currentUser is null)
-                    {
-                        Console.WriteLine("\nIncorrect Pin! Please try again.");
-                    }
-                    else
-                    {
-                        break;
-                    }
+                    Console.WriteLine("\nYou have entered wrong pin 3 times!");
+                    Sleep(20);
+                    Console.WriteLine("\rWaiting period is over. You can try again.");
+                    count = 0;
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input! Please enter a numeric PIN.");
+                    Console.WriteLine("\nPlease enter pin: ");
+                    userPin = Console.ReadLine();
+
+                    if (int.TryParse(userPin, out int pinAsInt))
+                    {
+                        currentUser = users.FirstOrDefault(x => x.GetPin() == pinAsInt);
+
+                        if (currentUser is null)
+                        {
+                            Console.WriteLine("\nIncorrect Pin! Please try again.");
+                            count++;
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input! Please enter a numeric PIN.");
+                    }
                 }
             }
 
@@ -211,5 +242,6 @@ namespace LTHDotNetCore.LTHDotNetCore.AtmConsoleApp
 
             Console.WriteLine("Thank you. Have a nice day!");
         }
+        #endregion
     }
 }
