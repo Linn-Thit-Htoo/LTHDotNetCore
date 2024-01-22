@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery - Bootstrap - Select</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!--suppress CssUnusedSymbol -->
+    <style>
+      .dropdown-item:active,
+      .dropdown-item.active {
+        background-color: transparent;
+        color: white;
+      }
+      .dropdown-item {
+        font-size: 11px;
+      }
+      .dropdown-item .js-icon-checklist {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body class="container py-5" style="opacity: 0">
+    <div class="d-flex">
+      <div class="p-3">
+        <table class="table">
+          <tr>
+            <td>single select</td>
+            <td>
+              <label for="select1"></label
+              ><select id="select1" data-btn-class="btn-primary">
+                <option value="1">Item 1</option>
+                <option value="2">Item 2</option>
+                <option value="3">Item 3</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>multiple select</td>
+            <td>
+              <label for="select2"></label
+              ><select
+                multiple
+                id="select2"
+                data-show-selection-as-list="true"
+              ></select>
+            </td>
+          </tr>
+          <tr>
+            <td>multiple select with option groups</td>
+            <td>
+              <label for="select3"></label
+              ><select
+                multiple
+                id="select3"
+                data-show-selection-as-list="false"
+                data-drop-direction="dropped"
+                data-btn-class="btn-outline-danger  btn-sm"
+              ></select>
+            </td>
+          </tr>
+          <tr>
+            <td>playground</td>
+            <td>
+              <label for="select4"></label>
+              <select
+                multiple
+                data-debug="true"
+                data-debug-element="#debug"
+                id="select4"
+                data-show-selection-as-list="false"
+                data-show-action-menu="false"
+                data-drop-direction="dropdown-center"
+                data-btn-split="true"
+                data-btn-class="btn-outline-light"
+              >
+                <option value="1">Item 1</option>
+                <option value="2">Item 2</option>
+                <option value="3">Item 3</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./dist/jquery.bs-select.min.js"></script>
+    <script>
+      (function ($) {
+        $.bsSelect.setDefaults({
+          dropUpCenter: true,
+          btnClass: "btn-outline-warning",
+          showSubtext: true,
+        });
+        const select1 = $("#select1");
+        const select2 = $("#select2");
+        const select3 = $("#select3");
+        const select4 = $("#select4");
+        const groups = [];
+        let options = [];
+        for (let i = 1, j = 0; i <= 100; i++) {
+          const option = $("<option>", {
+            value: i - 1,
+            text: `Item ${i}`,
+            "data-subtext": "subtext " + (i + 1),
+            "data-icon": "bi bi-heart-fill",
+          });
+          option.appendTo(select2);
+          options.push(option.clone());
+          if (i - 1 !== 0 && (i - 1) % 10 === 0) {
+            j++;
+            groups.push(options);
+            options = [];
+          }
+        }
+        for (let array in groups) {
+          const o = groups[array];
+          const g = $("<optgroup>", {
+            label: `Group ${array + 1}`,
+          }).appendTo(select3);
+          o.forEach((op) => {
+            op.appendTo(g);
+          });
+        }
+
+        select1.bsSelect();
+        select1.bsSelect("val", 1);
+        select2.bsSelect();
+        select3.bsSelect({
+          showMultipleCheckboxes: true,
+        });
+        select4.bsSelect({
+          showMultipleCheckboxes: true,
+        });
+
+        $("#btnUpdate").on("click", function () {
+          const newOptions = {
+            btnClass: "btn-light btn-sm",
+            btnSplit: false,
+            search: false,
+            dropDirection: "",
+            menuClass: "shadow p-2 mt-0 rounded-0",
+          };
+          select4.bsSelect("updateOptions", newOptions);
+        });
+
+        $("#btnInit").on("click", function () {
+          select4.bsSelect();
+        });
+        $("#btnDestroy").on("click", function () {
+          select4.bsSelect("destroy");
+        });
+
+        $("#btnShow").on("click", function () {
+          select4.bsSelect("show");
+        });
+        $("#btnHide").on("click", function () {
+          select4.bsSelect("hide");
+        });
+        $("#btnRefresh").on("click", function () {
+          select4.bsSelect("refresh");
+        });
+
+        $("#btnVal").on("click", function () {
+          select4.bsSelect("val", 2);
+        });
+
+        $("#btnNone").on("click", function () {
+          select4.bsSelect("selectNone");
+        });
+        $("#btnAll").on("click", function () {
+          select4.bsSelect("selectAll");
+        });
+        $("body").animate({ opacity: 1 }, 0);
+      })(jQuery);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #D8D8D8;
+}
+.menu-container {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}
+
+.menu-toggle-btn {
+    height: 56px;
+    width: 56px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0040ff;
+    box-shadow: 3px 3px 2px 1px rgb(0 0 0 / 20%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.menu-toggle-btn i {
+    font-size: 2rem;
+    color: #eeeeee;
+    transition: 0.5s;
+}
+
+.menu-toggle-btn.effect i {
+    transform: rotate(135deg);
+}
+
+.menu-list {
+    list-style: none;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-list .menu-item {
+    height: 2.3rem;
+    width: 2.3rem;
+    bottom: 0.25rem;
+    right: 0.25rem;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B48FF;
+    transition: 0.6s;
+}
+
+.menu-list .menu-item a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.menu-list .menu-item:hover {
+    background-color: #8864fd;
+}
+
+.menu-list.effect .menu-item {
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.menu-list.effect .menu-item:nth-of-type(1) {
+    bottom: 4.25rem;
+    right: 0.5rem;
+    transition-delay: 0.2s;
+}
+
+.menu-list.effect .menu-item:nth-of-type(2) {
+    bottom: 3.5rem;
+    right: 3.5rem;
+    transition-delay: 0.1s;
+}
+
+.menu-list.effect .menu-item:nth-of-type(3) {
+    bottom: 0.5rem;
+    right: 4.25rem;
+}
