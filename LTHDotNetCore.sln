@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.ConsoleApp", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.RestApi", "LTHDotNetCore.RestApi\LTHDotNetCore.RestApi.csproj", "{B6C59561-6425-4CED-BE31-06FE53A38C46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.AtmConsoleApp", "LTHDotNetCore.AtmConsoleApp\LTHDotNetCore.AtmConsoleApp.csproj", "{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.AtmConsoleApp", "LTHDotNetCore.AtmConsoleApp\LTHDotNetCore.AtmConsoleApp.csproj", "{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCoreMvcApp", "LTHDotNetCoreMvcApp\LTHDotNetCoreMvcApp.csproj", "{3800CF32-BE29-45CC-975F-41C2DB317A60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EFE3C13-458A-4F74-8EEE-7FE1617991BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3800CF32-BE29-45CC-975F-41C2DB317A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3800CF32-BE29-45CC-975F-41C2DB317A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3800CF32-BE29-45CC-975F-41C2DB317A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3800CF32-BE29-45CC-975F-41C2DB317A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

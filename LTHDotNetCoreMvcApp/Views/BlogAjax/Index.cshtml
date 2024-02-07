@@ -1,0 +1,65 @@
+﻿@model List<BlogDataModel>;
+
+@{
+    ViewData["Title"] = "Blog List";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">Content</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Blog_Title</td>
+                <td>@item.Blog_Author</td>
+                <td>@item.Blog_Content</td>
+                <td>
+                    <a href="/BlogAjax/Edit/@item.Blog_Id" class="btn btn-success">Edit</a>
+                    <button type="button" class="btn btn-danger btn-delete" data-id="@item.Blog_Id" data-blog-id="@item.Blog_Id">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts {
+    <script>
+        $('.btn-delete').click(function (e) {
+            let result = confirm("Are you sure want to delete?");
+            if (!result) return;
+
+            let id = $(this).data('id');
+
+            let _requestModel = {
+                Blog_Id: id,
+            };
+
+            console.log({ _requestModel });
+
+            $.ajax({
+                type: "POST",
+                url: '/BlogAjax/Delete',
+                data: { blogDataModel: _requestModel },
+                dataType: "json",
+                success: function (data) {
+                    console.log({ data });
+                    alert(data.message);
+                    location.href = "/BlogAjax";
+                },
+                error: function (ex) {
+                    var r = jQuery.parseJSON(response.responseText);
+                    console.log("Message: " + r.Message);
+                    console.log("StackTrace: " + r.StackTrace);
+                    console.log("ExceptionType: " + r.ExceptionType);
+                }
+            });
+        })
+    </script>
+}

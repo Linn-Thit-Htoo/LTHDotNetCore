@@ -1,0 +1,53 @@
+﻿@model BlogDataModel;
+
+@{
+    ViewData["Title"] = "Edit Blog";
+}
+
+<div class="mb-3">
+    <label class="form-label">Title</label>
+    <input type="text" class="form-control" id="Blog_Title" value="@Model.Blog_Title" />
+</div>
+<div class="mb-3">
+    <label class="form-label">Author</label>
+    <input type="text" class="form-control" id="Blog_Author" value="@Model.Blog_Author" />
+</div>
+<div class="mb-3">
+    <label class="form-label">Content</label>
+    <input type="text" class="form-control" id="Blog_Content" value="@Model.Blog_Content" />
+</div>
+<a href="/Blog/Ajax" class="btn btn-dark">Go Back</a>
+<button type="button" id="btnEdit" class="btn btn-success">Update</button>
+
+@section scripts {
+    <script>
+        $("#btnEdit").click(function () {
+            let title = $('#Blog_Title').val();
+            let author = $("#Blog_Author").val();
+            let content = $("#Blog_Content").val();
+
+            let _requestModel = {
+                Blog_Title: title,
+                Blog_Author: author,
+                Blog_Content: content
+            };
+
+            $.ajax({
+                type: "POST",
+                url: '/BlogAjax/Update/@Model.Blog_Id',
+                data: { blogDataModel: _requestModel },
+                dataType: "json",
+                success: function (data) {
+                    alert(data.message);
+                    location.href = "/BlogAjax";
+                },
+                error: function (ex) {
+                    var r = jQuery.parseJSON(response.responseText);
+                    console.log("Message: " + r.Message);
+                    console.log("StackTrace: " + r.StackTrace);
+                    console.log("ExceptionType: " + r.ExceptionType);
+                }
+            });
+        });
+    </script>
+}

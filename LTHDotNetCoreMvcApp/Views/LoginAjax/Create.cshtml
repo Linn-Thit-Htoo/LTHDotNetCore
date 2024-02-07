@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Create New User";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Create New User</h3>
+                </div>
+                <div class="card-body">
+                    <label>User Name: </label>
+                    <input type="text" id="UserName" class="form-control" />
+                    <br />
+                    <label>Email: </label>
+                    <input type="email" id="Email" class="form-control" />
+                    <br />
+                    <label>Password: </label>
+                    <input type="password" id="Password" class="form-control" />
+                    <br />
+                    <label>Full Name: </label>
+                    <input type="text" id="FullName" class="form-control" />
+                    <br />
+                    <label>Role: </label>
+                    <select class="form-control" id="Role">
+                        <option value="">Choose options...</option>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select>
+                    <button type="button" class="btn btn-success float-end mt-3" id="btnSave">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $("#btnSave").click(function () {
+            let userName = $('#UserName').val();
+            let email = $("#Email").val();
+            let password = $("#Password").val();
+            let fullName = $("#FullName").val();
+            let role = $("#Role").val();
+
+            if (userName == "" || email == "" || password == "" || fullName == "" || role == "") {
+                alert("Please fill all fields...");
+                return;
+            }
+
+            let _requestModel = {
+                UserName: userName,
+                Email: email,
+                Password: password,
+                FullName: fullName,
+                Role: role
+            };
+
+            $.ajax({
+                type: "POST",
+                url: '/LoginAjax/Save',
+                data: { loginDataModel: _requestModel },
+                dataType: "json",
+                success: function (data) {
+                    alert(data.message);
+                    location.href = "/LoginAjax/Index";
+                },
+                error: function (ex) {
+                    var r = jQuery.parseJSON(response.responseText);
+                    console.log("Message: " + r.Message);
+                    console.log("StackTrace: " + r.StackTrace);
+                    console.log("ExceptionType: " + r.ExceptionType);
+                }
+            });
+        });
+    </script>
+}

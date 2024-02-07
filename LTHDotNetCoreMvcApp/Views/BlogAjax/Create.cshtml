@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Create Blog";
+}
+
+<div class="mb-3">
+    <label class="form-label">Title</label>
+    <input type="text" class="form-control" id="Blog_Title" required />
+</div>
+<div class="mb-3">
+    <label class="form-label">Author</label>
+    <input type="text" class="form-control" id="Blog_Author" required />
+</div>
+<div class="mb-3">
+    <label class="form-label">Content</label>
+    <input type="text" class="form-control" id="Blog_Content" required />
+</div>
+<a href="/Blog/Ajax" class="btn btn-dark">Go Back</a>
+<button type="button" id="btnSave" class="btn btn-success">Save</button>
+
+@section scripts {
+    <script>
+        $("#btnSave").click(function(){
+            let title = $('#Blog_Title').val();
+            let author = $("#Blog_Author").val();
+            let content = $("#Blog_Content").val();
+
+            let _requestModel = {
+                Blog_Title: title,
+                Blog_Author: author,
+                Blog_Content: content
+            };
+
+            $.ajax({
+                type: "POST",
+                url: '/BlogAjax/Save',
+                data: { blogDataModel: _requestModel },
+                dataType: "json",
+                success: function (data) {
+                    alert(data.message);
+                    location.href = "/BlogAjax";
+                },
+                error: function (ex) {
+                    var r = jQuery.parseJSON(response.responseText);
+                    console.log("Message: " + r.Message);
+                    console.log("StackTrace: " + r.StackTrace);
+                    console.log("ExceptionType: " + r.ExceptionType);
+                }
+            });
+        });
+    </script>
+}

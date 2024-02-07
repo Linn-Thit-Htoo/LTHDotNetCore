@@ -1,0 +1,61 @@
+﻿@model LoginDataModel;
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Create New User</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="/Login/Update/@Model.UserId">
+                        <label>User Name: </label>
+                        <input type="text" name="UserName" class="form-control" value="@Model.UserName" required />
+                        <br />
+                        <label>Email: </label>
+                        <input type="email" name="Email" class="form-control" value="@Model.Email" required />
+                        <br />
+                        <label>Password: </label>
+                        <input type="password" name="Password" class="form-control" value="@Model.Password" required />
+                        <br />
+                        <label>Full Name: </label>
+                        <input type="text" name="FullName" class="form-control" value="@Model.FullName" required />
+                        <br />
+                        <label>Role: </label>
+                        <select class="form-control" name="Role" required>
+                            <option value="">Choose options...</option>
+                            @{
+                                if (@Model.Role == "admin")
+                                {
+                                    <option value="admin" selected>Admin</option>
+                                    <option value="user">User</option>
+                                }
+                                else if (Model.Role == "user")
+                                {
+                                    <option value="user" selected>User</option>
+                                    <option value="admin">Admin</option>
+                                }
+                            }
+                        </select>
+                        <div class="mt-4">
+                            <button type="button" class="btn btn-outline-dark" id="goBack">Go Back</button>
+                            <input type="submit" class="btn btn-success float-end" value="Update" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $("#goBack").click(function(){
+            window.location.href = "/Login/Index";
+        });
+    </script>
+}

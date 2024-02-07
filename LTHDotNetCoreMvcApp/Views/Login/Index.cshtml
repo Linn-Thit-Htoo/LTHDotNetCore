@@ -1,0 +1,34 @@
+﻿@model List<LoginDataModel>;
+
+@{
+    ViewData["Title"] = "Blog List";
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>FullName</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+                <td>@item.Password</td>
+                <td>@item.FullName</td>
+                <td>@item.Role</td>
+                <td>
+                    <a href="/Login/Edit/@item.UserId" class="btn btn-success">Edit</a>
+                    <a href="/Login/Delete/@item.UserId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

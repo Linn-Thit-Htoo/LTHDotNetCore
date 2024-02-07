@@ -1,0 +1,69 @@
+﻿@model List<LoginDataModel>;
+
+@{
+    ViewData["Title"] = "Blog List";
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>FullName</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+                <td>@item.Password</td>
+                <td>@item.FullName</td>
+                <td>@item.Role</td>
+                <td>
+                    <a href="/LoginAjax/Edit/@item.UserId" class="btn btn-success">Edit</a>
+                    <button data-id="@item.UserId" class="btn btn-danger btn-delete">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts {
+    <script>
+        $('.btn-delete').click(function (e) {
+            let result = confirm("Are you sure want to delete?");
+            if (!result) return;
+
+            let id = $(this).data('id');
+
+            let _requestModel = {
+                UserId: id,
+            };
+
+            console.log({ _requestModel });
+
+            $.ajax({
+                type: "POST",
+                url: '/LoginAjax/Delete',
+                data: { loginDataModel: _requestModel },
+                dataType: "json",
+                success: function (data) {
+                    console.log({ data });
+                    alert(data.message);
+                    location.href = "/LoginAjax/Index";
+                },
+                error: function (ex) {
+                    var r = jQuery.parseJSON(response.responseText);
+                    console.log("Message: " + r.Message);
+                    console.log("StackTrace: " + r.StackTrace);
+                    console.log("ExceptionType: " + r.ExceptionType);
+                }
+            });
+        })
+    </script>
+}

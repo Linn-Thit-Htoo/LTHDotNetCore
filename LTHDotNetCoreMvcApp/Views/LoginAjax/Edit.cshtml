@@ -1,0 +1,89 @@
+﻿@model LoginDataModel;
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Edit User</h3>
+                </div>
+                <div class="card-body">
+                    <label>User Name: </label>
+                    <input type="text" id="UserName" class="form-control" value="@Model.UserName" />
+                    <br />
+                    <label>Email: </label>
+                    <input type="email" id="Email" class="form-control" value="@Model.Email" />
+                    <br />
+                    <label>Password: </label>
+                    <input type="password" id="Password" class="form-control" value="@Model.Password" />
+                    <br />
+                    <label>Full Name: </label>
+                    <input type="text" id="FullName" class="form-control" value="@Model.FullName" />
+                    <br />
+                    <label>Role: </label>
+                    <select class="form-control" id="Role" required>
+                        <option value="">Choose options...</option>
+                        @{
+                            if (@Model.Role == "admin")
+                            {
+                                <option value="admin" selected>Admin</option>
+                                <option value="user">User</option>
+                            }
+                            else if (Model.Role == "user")
+                            {
+                                <option value="user" selected>User</option>
+                                <option value="admin">Admin</option>
+                            }
+                        }
+                    </select>
+                    <div class="mt-4">
+                        <a href="/LoginAjax/Index" class="btn btn-outline-dark">Go Back</a>
+                        <button type="button" class="btn btn-success float-end" id="btnEdit">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $("#btnEdit").click(function () {
+            let userName = $('#UserName').val();
+            let email = $("#Email").val();
+            let password = $("#Password").val();
+            let fullName = $("#FullName").val();
+            let role = $("#Role").val();
+
+            if (userName == "" || email == "" || password == "" || fullName == "" || role == "") {
+                alert("Please fill all fields...");
+                return;
+            }
+
+            let _requestModel = {
+                UserName: userName,
+                Email: email,
+                Password: password,
+                FullName: fullName,
+                Role: role
+            };
+
+            $.ajax({
+                type: "POST",
+                url: '/LoginAjax/Update/@Model.UserId',
+                data: { loginDataModel: _requestModel },
+                dataType: "json",
+                success: function (data) {
+                    alert(data.message);
+                    location.href = "/LoginAjax/Index";
+                },
+                error: function (ex) {
+                    var r = jQuery.parseJSON(response.responseText);
+                    console.log("Message: " + r.Message);
+                    console.log("StackTrace: " + r.StackTrace);
+                    console.log("ExceptionType: " + r.ExceptionType);
+                }
+            });
+        });
+    </script>
+}
