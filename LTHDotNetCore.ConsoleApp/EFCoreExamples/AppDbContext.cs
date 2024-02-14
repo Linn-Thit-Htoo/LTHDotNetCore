@@ -1,11 +1,6 @@
 ﻿using LTHDotNetCore.ConsoleApp.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LTHDotNetCore.ConsoleApp.EFCoreExamples
 {
@@ -13,7 +8,7 @@ namespace LTHDotNetCore.ConsoleApp.EFCoreExamples
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+            SqlConnectionStringBuilder _sqlConnectionStringBuilder = new()
             {
                 DataSource = ".",
                 InitialCatalog = "DotNetClass",

@@ -55,7 +55,7 @@ namespace LTHDotNetCore.ConsoleApp.AdoDotNetExamples
         #region Edit
         private void Edit(int id)
         {
-            SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+            SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
             {
                 DataSource = "LAPTOP-DR9SFJ1C",
                 InitialCatalog = "DotNetClass",
@@ -70,9 +70,9 @@ namespace LTHDotNetCore.ConsoleApp.AdoDotNetExamples
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]
   WHERE Blog_Id = @Blog_Id;";
-            SqlCommand cmd = new SqlCommand(query, connection);
+            SqlCommand cmd = new(query, connection);
             cmd.Parameters.AddWithValue("@Blog_Id", id);
-            DataTable dt = new DataTable();
+            DataTable dt = new();
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
             sqlDataAdapter.Fill(dt);
             connection.Close();
@@ -87,14 +87,14 @@ namespace LTHDotNetCore.ConsoleApp.AdoDotNetExamples
         #region Create
         private void Create(string title, string author, string content)
         {
-            SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+            SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
             {
                 DataSource = "LAPTOP-DR9SFJ1C",
                 InitialCatalog = "DotNetClass",
                 UserID = "sa",
                 Password = "sa@123"
             };
-            SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
             string query = @"INSERT INTO [dbo].[Tbl_blog]
     ([Blog_Title]
@@ -104,7 +104,7 @@ VALUES (@Blog_Title
            ,@Blog_Author
            ,@Blog_Content);
 ";
-            SqlCommand command = new SqlCommand(query, connection);
+            SqlCommand command = new(query, connection);
             command.Parameters.AddWithValue("@Blog_Title", title);
             command.Parameters.AddWithValue("@Blog_Author", author);
             command.Parameters.AddWithValue("@Blog_Content", content);
@@ -120,21 +120,21 @@ VALUES (@Blog_Title
         {
             try
             {
-                SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+                SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
                 {
                     DataSource = "LAPTOP-DR9SFJ1C",
                     InitialCatalog = "DotNetClass",
                     UserID = "sa",
                     Password = "sa@123"
                 };
-                SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"UPDATE [dbo].[Tbl_blog]
    SET [Blog_Title] = @Blog_Title
       ,[Blog_Author] = @Blog_Author
       ,[Blog_Content] = @Blog_Content
  WHERE Blog_Id = @Blog_Id;";
-                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new(query, connection);
                 cmd.Parameters.AddWithValue("@BLog_Title", title);
                 cmd.Parameters.AddWithValue("@Blog_Author", author);
                 cmd.Parameters.AddWithValue("@Blog-Content", content);
@@ -156,18 +156,18 @@ VALUES (@Blog_Title
         {
             try
             {
-                SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+                SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
                 {
                     DataSource = "LAPTOP-DR9SFJ1C",
                     InitialCatalog = "DotNetClass",
                     UserID = "sa",
                     Password = "sa@123"
                 };
-                SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"DELETE FROM [dbo].[Tbl_blog]
       WHERE Blog_Id = @Blog_Id;";
-                SqlCommand command = new SqlCommand(query, connection);
+                SqlCommand command = new(query, connection);
                 command.Parameters.AddWithValue("@Blog_Id", id);
                 int result = command.ExecuteNonQuery();
                 connection.Close();

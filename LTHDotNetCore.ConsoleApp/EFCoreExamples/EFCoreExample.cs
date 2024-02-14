@@ -1,16 +1,11 @@
 ﻿using LTHDotNetCore.ConsoleApp.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LTHDotNetCore.ConsoleApp.EFCoreExamples
 {
     public class EFCoreExample
     {
-        private readonly AppDbContext _dbContext = new AppDbContext();
+        private readonly AppDbContext _dbContext = new();
         #region Read
         private void Read()
         {

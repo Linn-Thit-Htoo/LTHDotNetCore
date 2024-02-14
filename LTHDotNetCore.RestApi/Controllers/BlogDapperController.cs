@@ -1,10 +1,8 @@
 ﻿using Dapper;
 using LTHDotNetCore.RestApi.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using System.Data;
-using System.Reflection.Metadata;
 
 namespace LTHDotNetCore.RestApi.Controllers
 {
@@ -12,7 +10,7 @@ namespace LTHDotNetCore.RestApi.Controllers
     [ApiController]
     public class BlogDapperController : ControllerBase
     {
-        SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        SqlConnectionStringBuilder _sqlConnectionStringBuilder = new()
         {
             DataSource = ".",
             InitialCatalog = "DotNetClass",

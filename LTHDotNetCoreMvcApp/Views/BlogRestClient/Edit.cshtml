@@ -1,0 +1,25 @@
+﻿@model BlogDataModel;
+
+@{
+    ViewData["Title"] = "Edit Blog";
+}
+
+<form method="post" action="/BlogRestClient/Update/@Model.Blog_Id">
+    <div class="mb-3">
+        <input type="hidden" class="form-control" name="Blog_Id" value="@Model.Blog_Id" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input type="text" class="form-control" name="Blog_Title" value="@Model.Blog_Title" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Author</label>
+        <input type="text" class="form-control" value="@Model.Blog_Author" name="Blog_Author" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Content</label>
+        <input type="text" class="form-control" name="Blog_Content" value="@Model.Blog_Content" required />
+    </div>
+    <a href="/BlogRestClient/Index" class="btn btn-dark">Go Back</a>
+    <button type="submit" class="btn btn-success">Update</button>
+</form>

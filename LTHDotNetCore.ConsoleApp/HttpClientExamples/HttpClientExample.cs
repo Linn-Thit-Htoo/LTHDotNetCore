@@ -1,11 +1,6 @@
 ﻿using LTHDotNetCore.ConsoleApp.Models;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
@@ -28,7 +23,7 @@ namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
         {
             try
             {
-                HttpClient client = new HttpClient();
+                HttpClient client = new();
                 HttpResponseMessage response = await client.GetAsync(_blogEndpoint);
                 if (response.IsSuccessStatusCode)
                 {
@@ -55,7 +50,7 @@ namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
         {
             try
             {
-                HttpClient client = new HttpClient();
+                HttpClient client = new();
                 HttpResponseMessage response = await client.GetAsync($"{_blogEndpoint}/{id}");
                 if (response.IsSuccessStatusCode)
                 {
@@ -89,7 +84,7 @@ namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
                 string jsonBlog = JsonConvert.SerializeObject(blog);
                 HttpContent httpContent = new StringContent(jsonBlog, Encoding.UTF8, Application.Json);
 
-                HttpClient client = new HttpClient();
+                HttpClient client = new();
                 HttpResponseMessage response = await client.PostAsync(_blogEndpoint, httpContent);
 
                 await Console.Out.WriteLineAsync(await response.Content.ReadAsStringAsync());
@@ -142,7 +137,7 @@ namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
                 string jsonBlog = JsonConvert.SerializeObject(blog);
                 HttpContent httpContent = new StringContent(jsonBlog, Encoding.UTF8, Application.Json);
 
-                HttpClient client = new HttpClient();
+                HttpClient client = new();
                 HttpResponseMessage response = await client.PatchAsync($"{_blogEndpoint}/{id}", httpContent);
 
                 Console.WriteLine(await response.Content.ReadAsStringAsync());
@@ -159,7 +154,7 @@ namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
         {
             try
             {
-                HttpClient client = new HttpClient();
+                HttpClient client = new();
                 HttpResponseMessage response = await client.DeleteAsync($"{_blogEndpoint}/{id}");
 
                 Console.WriteLine(await response.Content.ReadAsStringAsync());

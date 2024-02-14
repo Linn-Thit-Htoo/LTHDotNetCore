@@ -1,4 +1,5 @@
 is_global = true
+build_property.RefitInternalNamespace = LTHDotNetCoreMvcApp
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -26,6 +27,42 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogAjax/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0FqYXhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogHttpClient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0h0dHBDbGllbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogHttpClient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0h0dHBDbGllbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogHttpClient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0h0dHBDbGllbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogRefit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1JlZml0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogRefit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1JlZml0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogRefit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1JlZml0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogRestClient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1Jlc3RDbGllbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogRestClient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1Jlc3RDbGllbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/BlogRestClient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1Jlc3RDbGllbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/LTHDotNetCore/LTHDotNetCoreMvcApp/Views/Blog/Create.cshtml]

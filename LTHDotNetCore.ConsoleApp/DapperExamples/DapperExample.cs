@@ -1,18 +1,13 @@
 ﻿using LTHDotNetCore.ConsoleApp.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Dapper;
 
 namespace LTHDotNetCore.ConsoleApp.DapperExamples
 {
     public class DapperExample
     {
-        SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
         {
             DataSource = "LAPTOP-DR9SFJ1C",
             InitialCatalog = "DotNetClass",
@@ -107,7 +102,7 @@ namespace LTHDotNetCore.ConsoleApp.DapperExamples
     ,[Blog_Content])
 VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
-            BlogDataModel blog = new BlogDataModel()
+            BlogDataModel blog = new()
             {
                 Blog_Title = title,
                 Blog_Author = author,
@@ -130,7 +125,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
       ,[Blog_Content] = @Blog_Content
  WHERE Blog_Id = @Blog_Id;";
                 using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
-                BlogDataModel blog = new BlogDataModel()
+                BlogDataModel blog = new()
                 {
                     Blog_Id = id,
                     Blog_Title = title,
@@ -155,7 +150,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             {
                 string query = @"DELETE FROM [dbo].[Tbl_blog]
       WHERE Blog_Id = @BLog_Id;";
-                BlogDataModel blog = new BlogDataModel()
+                BlogDataModel blog = new()
                 {
                     Blog_Id = id,
                 };

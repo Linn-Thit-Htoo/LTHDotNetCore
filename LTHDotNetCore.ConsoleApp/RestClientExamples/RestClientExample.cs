@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
-using LTHDotNetCore.ConsoleApp.Models;
+﻿using LTHDotNetCore.ConsoleApp.Models;
 using Newtonsoft.Json;
 using RestSharp;
 
@@ -28,8 +22,8 @@ namespace LTHDotNetCore.ConsoleApp.RestClientExamples
         {
             try
             {
-                RestClient client = new RestClient();
-                RestRequest request = new RestRequest(_blogEndpoint, Method.Get);
+                RestClient client = new();
+                RestRequest request = new(_blogEndpoint, Method.Get);
 
                 var response = await client.ExecuteAsync(request);
 
@@ -58,8 +52,8 @@ namespace LTHDotNetCore.ConsoleApp.RestClientExamples
         {
             try
             {
-                RestClient client = new RestClient();
-                RestRequest request = new RestRequest($"{_blogEndpoint}/{id}", Method.Get);
+                RestClient client = new();
+                RestRequest request = new($"{_blogEndpoint}/{id}", Method.Get);
 
                 var response = await client.ExecuteAsync(request);
 
@@ -99,8 +93,8 @@ namespace LTHDotNetCore.ConsoleApp.RestClientExamples
                     Blog_Content = content
                 };
 
-                RestClient client = new RestClient();
-                RestRequest request = new RestRequest(_blogEndpoint, Method.Post);
+                RestClient client = new();
+                RestRequest request = new(_blogEndpoint, Method.Post);
 
                 request.AddJsonBody(blog);
 
@@ -128,8 +122,8 @@ namespace LTHDotNetCore.ConsoleApp.RestClientExamples
                     Blog_Content = content
                 };
 
-                RestClient client = new RestClient();
-                RestRequest request = new RestRequest($"{_blogEndpoint}/{id}", Method.Put);
+                RestClient client = new();
+                RestRequest request = new($"{_blogEndpoint}/{id}", Method.Put);
                 request.AddJsonBody(blog);
 
                 var response = await client.ExecuteAsync(request);
@@ -154,8 +148,8 @@ namespace LTHDotNetCore.ConsoleApp.RestClientExamples
                     Blog_Author = author
                 };
 
-                RestClient client = new RestClient();
-                RestRequest request = new RestRequest($"{_blogEndpoint}/{id}", Method.Patch);
+                RestClient client = new();
+                RestRequest request = new($"{_blogEndpoint}/{id}", Method.Patch);
                 request.AddJsonBody(blog);
 
                 var response = await client.ExecuteAsync(request);
@@ -173,8 +167,8 @@ namespace LTHDotNetCore.ConsoleApp.RestClientExamples
         {
             try
             {
-                RestClient client = new RestClient();
-                RestRequest request = new RestRequest($"{_blogEndpoint}/{id}", Method.Delete);
+                RestClient client = new();
+                RestRequest request = new($"{_blogEndpoint}/{id}", Method.Delete);
 
                 RestResponse response = await client.ExecuteAsync(request);
                 Console.WriteLine(response.Content!);
