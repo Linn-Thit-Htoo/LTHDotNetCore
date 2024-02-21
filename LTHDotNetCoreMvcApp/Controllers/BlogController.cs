@@ -13,6 +13,41 @@ namespace LTHDotNetCoreMvcApp.Controllers
             _appDbContext = appDbContext;
         }
 
+        #region pagination
+        [ActionName("List")]
+        public async Task<IActionResult> Pagination(int pageNo = 1, int pageSize = 10)
+        {
+            try
+            {
+                var query = _appDbContext.Blogs
+                    .AsNoTracking()
+                    .OrderByDescending(x => x.Blog_Id);
+                var lst = await query
+                    .Skip((pageNo - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToListAsync();
+                var rowCount = await query.CountAsync();
+                var pageCount = rowCount / pageSize;
+                if (rowCount % pageSize > 0)
+                {
+                    pageCount++;
+                }
+
+                BlogResponseModel respModel = new()
+                {
+                    Data = lst,
+                    PageSetting = new PageSettingModel(pageNo, pageSize, pageCount, rowCount, "/Blog/List")
+                };
+
+                return View(respModel);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+        #endregion
+
         #region Index
         public async Task<IActionResult> Index()
         {
@@ -74,7 +109,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 var item = await _appDbContext.Blogs.Where(x => x.Blog_Id == id).FirstOrDefaultAsync();
-                if(item is null)
+                if (item is null)
                     return RedirectToAction("Index");
 
                 item.Blog_Title = blogDataModel.Blog_Title;
