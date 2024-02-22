@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using System.Data;
 using Newtonsoft.Json;
 using LTHDotNetCore.RestApi.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using Serilog;
 
 namespace LTHDotNetCore.RestApi.Controllers
 {
@@ -12,7 +11,7 @@ namespace LTHDotNetCore.RestApi.Controllers
     [ApiController]
     public class BlogAdoDotNetController : ControllerBase
     {
-        SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
         {
             DataSource = ".",
             InitialCatalog = "DotNetClass",
@@ -26,16 +25,17 @@ namespace LTHDotNetCore.RestApi.Controllers
         {
             try
             {
-                SqlConnection sqlConnection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection sqlConnection = new(sqlConnectionStringBuilder.ConnectionString);
                 string query = @"SELECT [Blog_Id]
       ,[Blog_Title]
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]";
                 sqlConnection.Open();
-                SqlCommand cmd = new SqlCommand(query, sqlConnection);
-                DataTable dt = new DataTable();
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
+                SqlCommand cmd = new(query, sqlConnection);
+                DataTable dataTable = new();
+                DataTable dt = dataTable;
+                SqlDataAdapter sqlDataAdapter = new(cmd);
                 sqlDataAdapter.Fill(dt);
                 sqlConnection.Close();
                 return Ok(JsonConvert.SerializeObject(dt));
@@ -53,7 +53,7 @@ namespace LTHDotNetCore.RestApi.Controllers
         {
             try
             {
-                SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"SELECT [Blog_Id]
       ,[Blog_Title]
@@ -61,10 +61,10 @@ namespace LTHDotNetCore.RestApi.Controllers
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]
   WHERE Blog_Id = @Blog_Id;";
-                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new(query, connection);
                 cmd.Parameters.AddWithValue("@Blog_Id", id);
-                DataTable dt = new DataTable();
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
+                DataTable dt = new();
+                SqlDataAdapter sqlDataAdapter = new(cmd);
                 sqlDataAdapter.Fill(dt);
                 connection.Close();
                 if (dt.Rows.Count == 0)
@@ -73,10 +73,10 @@ namespace LTHDotNetCore.RestApi.Controllers
                 }
                 List<BlogDataModel> lst = dt.AsEnumerable().Select(dr => new BlogDataModel
                 {
-                    Blog_Id = Convert.ToInt32(dr["Blog_Id"]),
-                    Blog_Title = Convert.ToString(dr["Blog_Title"]),
-                    Blog_Author = Convert.ToString(dr["Blog_Author"]),
-                    Blog_Content = Convert.ToString(dr["blog_content"])
+                    Blog_Id = Convert.ToInt32(dr["Blog_Id"])!,
+                    Blog_Title = Convert.ToString(dr["Blog_Title"])!,
+                    Blog_Author = Convert.ToString(dr["Blog_Author"])!,
+                    Blog_Content = Convert.ToString(dr["blog_content"])!
                 }).ToList();
 
                 return Ok(lst);
@@ -94,7 +94,7 @@ namespace LTHDotNetCore.RestApi.Controllers
         {
             try
             {
-                SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"INSERT INTO [dbo].[Tbl_blog]
     ([Blog_Title]
@@ -104,13 +104,15 @@ VALUES (@Blog_Title
            ,@Blog_Author
            ,@Blog_Content);
 ";
-                SqlCommand command = new SqlCommand(query, connection);
+                SqlCommand command = new(query, connection);
                 command.Parameters.AddWithValue("@Blog_Title", blogDataModel.Blog_Title);
                 command.Parameters.AddWithValue("@Blog_Author", blogDataModel.Blog_Author);
                 command.Parameters.AddWithValue("@Blog_Content", blogDataModel.Blog_Content);
                 int result = command.ExecuteNonQuery();
                 connection.Close();
                 string message = result > 0 ? "Inserted Successfully!" : "Insert data fail!";
+
+                Log.Information(message);
                 return Ok(message);
             }
             catch (Exception ex)
@@ -142,7 +144,7 @@ VALUES (@Blog_Title
                 }
 
                 // check not found scenario
-                SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"SELECT [Blog_Id]
                                       ,[Blog_Title]
@@ -150,10 +152,10 @@ VALUES (@Blog_Title
                                       ,[Blog_Content]
                                   FROM [dbo].[Tbl_blog]
                                   WHERE Blog_Id = @Blog_Id;";
-                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new(query, connection);
                 cmd.Parameters.AddWithValue("@Blog_Id", id);
-                DataTable dt = new DataTable();
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
+                DataTable dt = new();
+                SqlDataAdapter sqlDataAdapter = new(cmd);
                 sqlDataAdapter.Fill(dt);
                 connection.Close();
                 if (dt.Rows.Count == 0)
@@ -168,14 +170,16 @@ VALUES (@Blog_Title
                                   ,[Blog_Content] = @Blog_Content
                              WHERE Blog_Id = @Blog_Id;";
                 connection.Open();
-                SqlCommand cmd1 = new SqlCommand(query1, connection);
+                SqlCommand cmd1 = new(query1, connection);
                 cmd1.Parameters.AddWithValue("@Blog_Title", blogDataModel.Blog_Title);
                 cmd1.Parameters.AddWithValue("@Blog_Author", blogDataModel.Blog_Author);
                 cmd1.Parameters.AddWithValue("@Blog_Content", blogDataModel.Blog_Content);
                 cmd1.Parameters.AddWithValue("@Blog_Id", id);
-                int result = cmd.ExecuteNonQuery();
+                int result = cmd1.ExecuteNonQuery();
                 connection.Close();
                 string message = result > 0 ? "Updated Successfully!" : "Update Fail!";
+
+                Log.Debug(message);
                 return Ok(message);
             }
             catch (Exception ex)
@@ -192,7 +196,7 @@ VALUES (@Blog_Title
             try
             {
                 // check not found scenario
-                SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"SELECT [Blog_Id]
                                       ,[Blog_Title]
@@ -200,10 +204,10 @@ VALUES (@Blog_Title
                                       ,[Blog_Content]
                                   FROM [dbo].[Tbl_blog]
                                   WHERE Blog_Id = @Blog_Id;";
-                SqlCommand cmd = new SqlCommand(query, connection);
+                SqlCommand cmd = new(query, connection);
                 cmd.Parameters.AddWithValue("@Blog_Id", id);
-                DataTable dt = new DataTable();
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
+                DataTable dt = new();
+                SqlDataAdapter sqlDataAdapter = new(cmd);
                 sqlDataAdapter.Fill(dt);
                 connection.Close();
                 if (dt.Rows.Count == 0)
@@ -242,7 +246,7 @@ VALUES (@Blog_Title
                                      WHERE Blog_Id = @Blog_Id";
 
                 connection.Open();
-                SqlCommand cmdUpdate = new SqlCommand(queryUpdate, connection);
+                SqlCommand cmdUpdate = new(queryUpdate, connection);
 
                 if (!string.IsNullOrEmpty(blogDataModel.Blog_Title))
                 {
@@ -278,15 +282,17 @@ VALUES (@Blog_Title
         {
             try
             {
-                SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+                SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"DELETE FROM [dbo].[Tbl_blog]
       WHERE Blog_Id = @Blog_Id;";
-                SqlCommand command = new SqlCommand(query, connection);
+                SqlCommand command = new(query, connection);
                 command.Parameters.AddWithValue("@Blog_Id", id);
                 int result = command.ExecuteNonQuery();
                 connection.Close();
                 string message = result > 0 ? "Deleted Successfully!" : "Delete data fail!";
+
+                Log.Information(message);
                 return Ok(message);
             }
             catch (Exception ex)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+rPjmSxU1N65F/KBjlt0rgiAbAftBIe7iRdYqP0V/RbYdoGuukjbvJexsUmkP0UOn+xGaRW3uQ8Y8a3qfqYFlQ==",
+  "dgSpecHash": "tpoeiLvZ5NmmHHddcD8WtNVQ2wSYduG2cuBl19y6Gf7VmxCC7t7spSeEf6PYXBwm6rIszauu8nySu/aqGovsCg==",
   "success": true,
   "projectFilePath": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,8 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

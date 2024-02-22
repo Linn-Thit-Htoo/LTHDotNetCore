@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9YVu5nrqWUmMFJEz2lUSs90SsuJnFLq0eTWN4VIKiZXJ0y7a7Acnk7ZUNeWlPkeVkAps47C7wmBg9ZhfveowUg==",
+  "dgSpecHash": "PRjsDK6TrgdnMyv7cqf1JdzRouda05Px7gH7PjuiXj3E0C5ZW5GF1tobtiLu9ZVQn4uCERKrnDqw8cDLPLOnjQ==",
   "success": true,
   "projectFilePath": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\LTHDotNetCoreMvcApp.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,8 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\refit.httpclientfactory\\7.0.0\\refit.httpclientfactory.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",

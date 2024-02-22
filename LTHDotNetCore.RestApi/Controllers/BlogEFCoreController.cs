@@ -1,6 +1,7 @@
 ﻿using LTHDotNetCore.RestApi.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace LTHDotNetCore.RestApi.Controllers
 {
@@ -8,7 +9,7 @@ namespace LTHDotNetCore.RestApi.Controllers
     [ApiController]
     public class BlogEFCoreController : ControllerBase
     {
-        private readonly AppDbContext _dbContext = new AppDbContext();
+        private readonly AppDbContext _dbContext = new();
 
 
         #region Get all blogs
@@ -17,9 +18,13 @@ namespace LTHDotNetCore.RestApi.Controllers
         {
             try
             {
-                var lst = _dbContext.Blogs.ToList();
+                var lst = _dbContext.Blogs
+                    .AsNoTracking()
+                    .OrderByDescending(x => x.Blog_Id)
+                    .ToList();
                 return Ok(lst);
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -38,7 +43,8 @@ namespace LTHDotNetCore.RestApi.Controllers
                     return NotFound("No data found.");
                 }
                 return Ok(item);
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -54,8 +60,11 @@ namespace LTHDotNetCore.RestApi.Controllers
                 _dbContext.Blogs.Add(blogDataModel);
                 var result = _dbContext.SaveChanges();
                 var message = result > 0 ? "Saving Successful." : "Saving Failed";
+
+                Log.Information(message);
                 return Ok(message);
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -96,6 +105,7 @@ namespace LTHDotNetCore.RestApi.Controllers
                 int result = _dbContext.SaveChanges();
                 string message = result > 0 ? "Updating Successful." : "Updating Failed.";
 
+                Log.Information(message);
                 return Ok(message);
 
             }
@@ -136,8 +146,10 @@ namespace LTHDotNetCore.RestApi.Controllers
                 int result = _dbContext.SaveChanges();
                 string message = result > 0 ? "Updating Successful." : "Updating Failed.";
 
+                Log.Information(message);
                 return Ok(message);
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -152,7 +164,7 @@ namespace LTHDotNetCore.RestApi.Controllers
             {
                 var item = _dbContext.Blogs.FirstOrDefault(x => x.Blog_Id == id);
 
-                if(item is null)
+                if (item is null)
                 {
                     return NotFound("No data found.");
                 }
@@ -161,8 +173,10 @@ namespace LTHDotNetCore.RestApi.Controllers
                 int result = _dbContext.SaveChanges();
                 string message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
 
+                Log.Information(message);
                 return Ok(message);
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }

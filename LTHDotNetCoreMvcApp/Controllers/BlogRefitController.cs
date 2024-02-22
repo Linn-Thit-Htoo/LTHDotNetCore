@@ -1,6 +1,7 @@
 ﻿using LTHDotNetCore;
 using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
@@ -41,7 +42,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 string message = await _blogApi.CreateBlog(model);
-                await Console.Out.WriteLineAsync(message);
+                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -73,7 +74,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 string message = await _blogApi.PutBlog(id, model);
-                await Console.Out.WriteLineAsync(message);
+                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -90,7 +91,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 string message = await _blogApi.DeleteBlog(id);
-                await Console.Out.WriteLineAsync(message);
+                Log.Information(message);
 
                 return RedirectToAction("Index");
             }

@@ -1,6 +1,12 @@
 using LTHDotNetCore.MinimalApi;
 using LTHDotNetCore.MinimalApi.Feaatures.Blog;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+          .MinimumLevel.Debug()
+          .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
+          .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -69,3 +69,5 @@ D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\refint\LTHDotNetCore.
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\LTHDotNetCore.MinimalApi.pdb
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\LTHDotNetCore.MinimalApi.genruntimeconfig.cache
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\ref\LTHDotNetCore.MinimalApi.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Serilog.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Serilog.Sinks.File.dll

@@ -1,6 +1,7 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
@@ -73,7 +74,10 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 await _appDbContext.Blogs.AddAsync(blogDataModel);
-                await _appDbContext.SaveChangesAsync();
+                int result = await _appDbContext.SaveChangesAsync();
+
+                var message = result > 0 ? "Saving Successful!" : "Saving Fail!";
+                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -115,7 +119,9 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 item.Blog_Title = blogDataModel.Blog_Title;
                 item.Blog_Author = blogDataModel.Blog_Author;
                 item.Blog_Content = blogDataModel.Blog_Content;
-                await _appDbContext.SaveChangesAsync();
+                int result = await _appDbContext.SaveChangesAsync();
+                var message = result > 0 ? "Updating Successful!" : "Updating Fail!";
+                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -136,8 +142,10 @@ namespace LTHDotNetCoreMvcApp.Controllers
                     return RedirectToAction("Index");
 
                 _appDbContext.Remove(item);
-                await _appDbContext.SaveChangesAsync();
+                int result = await _appDbContext.SaveChangesAsync();
+                var message = result > 0 ? "Deteting Successful!" : "Deleting Fail!";
 
+                Log.Information(message);
                 return RedirectToAction("Index");
             }
             catch (Exception ex)

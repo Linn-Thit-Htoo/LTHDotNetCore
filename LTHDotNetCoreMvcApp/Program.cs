@@ -3,6 +3,12 @@ using LTHDotNetCoreMvcApp;
 using Microsoft.EntityFrameworkCore;
 using Refit;
 using RestSharp;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+          .MinimumLevel.Debug()
+          .WriteTo.File("logs/MVC.txt", rollingInterval: RollingInterval.Day)
+          .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,3 +1,10 @@
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+          .MinimumLevel.Debug()
+          .WriteTo.File("logs/RestApi.txt", rollingInterval: RollingInterval.Day)
+          .CreateLogger();
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

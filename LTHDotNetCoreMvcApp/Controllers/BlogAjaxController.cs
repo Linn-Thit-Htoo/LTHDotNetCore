@@ -1,6 +1,7 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
@@ -38,8 +39,10 @@ namespace LTHDotNetCoreMvcApp.Controllers
             {
                 await _appDbContext.Blogs.AddAsync(blogDataModel);
                 int result = await _appDbContext.SaveChangesAsync();
+                var message = result > 0 ? "Saving Successful." : "Saving Failed.";
+                Log.Information(message);
 
-                return Json(new { Message = result > 0 ? "Saving Successful." : "Saving Failed." });
+                return Json(new { Message = message });
             }
             catch (Exception ex)
             {
@@ -54,7 +57,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 var item = await _appDbContext.Blogs.Where(x => x.Blog_Id == id).FirstOrDefaultAsync();
-                if (item is null) 
+                if (item is null)
                     return RedirectToAction("Index");
 
                 return View(item);
@@ -74,15 +77,20 @@ namespace LTHDotNetCoreMvcApp.Controllers
             {
                 var item = await _appDbContext.Blogs.Where(x => x.Blog_Id == id).FirstOrDefaultAsync();
                 if (item is null)
+                {
+                    Log.Information("No data found");
                     return RedirectToAction("Index");
+                }
 
                 item.Blog_Title = blogDataModel.Blog_Title;
                 item.Blog_Author = blogDataModel.Blog_Author;
                 item.Blog_Content = blogDataModel.Blog_Content;
 
                 int result = await _appDbContext.SaveChangesAsync();
+                var message = result > 0 ? "Updating Successful." : "Updating Failed.";
+                Log.Information(message);
 
-                return Json(new { Message = result > 0 ? "Updating Successful." : "Updating Failed." });
+                return Json(new { Message = message });
             }
             catch (Exception ex)
             {
@@ -103,8 +111,10 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 _appDbContext.Remove(item);
                 int result = await _appDbContext.SaveChangesAsync();
+                var message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
+                Log.Information(message);
 
-                return Json(new { Message = result > 0 ? "Deleting Successful." : "Deleting Failed." });
+                return Json(new { Message = message });
             }
             catch (Exception ex)
             {

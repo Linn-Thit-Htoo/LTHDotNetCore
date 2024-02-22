@@ -2,6 +2,7 @@
 using LTHDotNetCore.RestApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
+using Serilog;
 using System.Data;
 
 namespace LTHDotNetCore.RestApi.Controllers
@@ -39,7 +40,8 @@ namespace LTHDotNetCore.RestApi.Controllers
                 }
 
                 return Ok(lst);
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -59,7 +61,7 @@ namespace LTHDotNetCore.RestApi.Controllers
   FROM [dbo].[Tbl_blog]
   WHERE Blog_Id = @Blog_Id;";
                 using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
-                BlogDataModel? item = db.Query<BlogDataModel>(query,new {Blog_Id = id}).FirstOrDefault();
+                BlogDataModel? item = db.Query<BlogDataModel>(query, new { Blog_Id = id }).FirstOrDefault();
 
                 if (item is null)
                 {
@@ -67,7 +69,8 @@ namespace LTHDotNetCore.RestApi.Controllers
                 }
 
                 return Ok(item);
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -87,7 +90,10 @@ namespace LTHDotNetCore.RestApi.Controllers
 VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
                 using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
                 int result = db.Execute(query, blogDataModel);
-                return result > 0 ? Ok("Saving Successful!") : BadRequest("Saving Fail!");
+                string message = result > 0 ? "Saving Successful!" : "Saving Fail!";
+
+                Log.Information(message);
+                return result > 0 ? Ok(message) : BadRequest(message);
             }
             catch (Exception ex)
             {
@@ -117,6 +123,10 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
                 }
 
                 // validate fields
+                if (id == 0)
+                {
+                    return BadRequest("ID field is required.");
+                }
                 if (string.IsNullOrEmpty(blogDataModel.Blog_Title))
                 {
                     return BadRequest("Blog Title is required.");
@@ -140,8 +150,10 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
  WHERE Blog_Id = @Blog_Id";
 
                 int result = db.Execute(queryUpdate, blogDataModel);
+                string message = result > 0 ? "Updating Successful!" : "Updating Fail!";
 
-                return result > 0 ? Ok("Updating Successful!") : BadRequest("Updating Fail!");
+                Log.Information(message);
+                return result > 0 ? Ok(message) : BadRequest(message);
             }
             catch (Exception ex)
             {
@@ -201,7 +213,10 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
  WHERE Blog_Id = @Blog_Id";
 
                 int result = db.Execute(queryUpdate, blogDataModel);
-                return result > 0 ? Ok("Updating Successful!") : BadRequest("Updating Fail!");
+                string message = result > 0 ? "Updating Successful!" : "Updating Fail!";
+
+                Log.Information(message);
+                return result > 0 ? Ok(message) : BadRequest(message);
             }
             catch (Exception ex)
             {
@@ -233,14 +248,16 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
                 string queryDelete = @"DELETE FROM [dbo].[Tbl_blog]
       WHERE Blog_Id = @BLog_Id;";
 
-                BlogDataModel blogDataModel = new BlogDataModel()
+                BlogDataModel blogDataModel = new()
                 {
                     Blog_Id = id,
                 };
 
                 int result = db.Execute(queryDelete, blogDataModel);
+                string message = result > 0 ? "Deleting Successful!" : "Deleting Fail!";
 
-                return result > 0 ? Ok("Deleting Successful!") : BadRequest("Deleting Fail!");
+                Log.Information(message);
+                return result > 0 ? Ok(message) : BadRequest(message);
             }
             catch (Exception ex)
             {

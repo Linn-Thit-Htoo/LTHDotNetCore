@@ -1,6 +1,7 @@
 ﻿using LTHDotNetCore.MinimalApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace LTHDotNetCore.MinimalApi.Feaatures.Blog
 {
@@ -38,6 +39,8 @@ namespace LTHDotNetCore.MinimalApi.Feaatures.Blog
                 await _appDbContext.Blogs.AddAsync(blog);
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Saving Successful." : "Saving Failed";
+
+                Log.Information(message);
                 return Results.Ok(message);
             });
 
@@ -53,6 +56,7 @@ namespace LTHDotNetCore.MinimalApi.Feaatures.Blog
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Updating Successful." : "Updaring Fail.";
 
+                Log.Information(message);
                 return Results.Ok(message);
             });
 
@@ -68,6 +72,7 @@ namespace LTHDotNetCore.MinimalApi.Feaatures.Blog
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Deleting Successful." : "Deleting Fail.";
 
+                Log.Information(message);
                 return Results.Ok(message);
             });
 

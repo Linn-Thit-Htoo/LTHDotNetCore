@@ -1,6 +1,7 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using System.Runtime.InteropServices;
 
 namespace LTHDotNetCoreMvcApp.Controllers
@@ -44,7 +45,9 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 }
 
                 await _appDbContext.Login.AddAsync(loginDataModel);
-                await _appDbContext.SaveChangesAsync();
+                int result = await _appDbContext.SaveChangesAsync();
+                string message = result > 0 ? "Saving Successful!" : "Saving Fail!";
+                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -80,7 +83,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 var item = await _appDbContext.Login.Where(x => x.UserId == id).FirstOrDefaultAsync();
-                if(item is null)
+                if (item is null)
                     return RedirectToAction("Index");
 
                 item.UserName = loginDataModel.UserName;
@@ -89,7 +92,10 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 item.FullName = loginDataModel.FullName;
                 item.Role = loginDataModel.Role;
 
-                await _appDbContext.SaveChangesAsync();
+                int result = await _appDbContext.SaveChangesAsync();
+                string message = result > 0 ? "Updating Successful!" : "Updating Fail1";
+                Log.Information(message);
+
                 return RedirectToAction("Index");
             }
             catch (Exception ex)
@@ -105,11 +111,13 @@ namespace LTHDotNetCoreMvcApp.Controllers
             try
             {
                 var item = await _appDbContext.Login.Where(x => x.UserId == id).FirstOrDefaultAsync();
-                if(item is null)
+                if (item is null)
                     return RedirectToAction("Index");
 
                 _appDbContext.Remove(item);
-                await _appDbContext.SaveChangesAsync();
+                int result = await _appDbContext.SaveChangesAsync();
+                string message = result > 0 ? "Deleting Successful!" : "Deleting Fail!";
+                Log.Information(message);
 
                 return RedirectToAction("Index");
             }

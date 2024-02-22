@@ -73,3 +73,5 @@ D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\refint\LTHDotNetCoreMvcApp
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\LTHDotNetCoreMvcApp.pdb
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\LTHDotNetCoreMvcApp.genruntimeconfig.cache
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\ref\LTHDotNetCoreMvcApp.dll
+D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Serilog.dll
+D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Serilog.Sinks.File.dll
