@@ -1,29 +1,49 @@
+using LTHDotNetCore.RestApi;
+using LTHDotNetCore.RestApi.Middlewares;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
-
-Log.Logger = new LoggerConfiguration()
-          .MinimumLevel.Debug()
-          .WriteTo.File("logs/RestApi.txt", rollingInterval: RollingInterval.Day)
-          .CreateLogger();
+using Serilog.Formatting.Compact;
+using Serilog.Sinks.MSSqlServer;
+using Serilog.Templates;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+Log.Logger = new LoggerConfiguration()
+          .MinimumLevel.Debug()
+          .WriteTo.File(new CompactJsonFormatter(), "logs/RestApi.txt", rollingInterval: RollingInterval.Hour)
+          .WriteTo.Console(new ExpressionTemplate(
+        "[{@t:HH:mm:ss} {@l:u3} {SourceContext}] {@m}\n{@x}"))
+          .WriteTo
+    .MSSqlServer(
+        connectionString: builder.Configuration.GetConnectionString("DbConnection"),
+        sinkOptions: new MSSqlServerSinkOptions { TableName = "Tbl_Logs", AutoCreateSqlTable = true })
+          .CreateLogger();
+
+builder.Host.UseSerilog();
+
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<AppDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
+}, ServiceLifetime.Transient);
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+app.UseLogHeaders();
+
 app.UseHttpsRedirection();
+
+//app.UseMiddleware<LogHeadersMiddleware>();
 
 app.UseAuthorization();
 

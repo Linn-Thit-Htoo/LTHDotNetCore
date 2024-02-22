@@ -2,6 +2,7 @@
 using LTHDotNetCore.RestApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
+using Newtonsoft.Json;
 using Serilog;
 using System.Data;
 
@@ -19,6 +20,14 @@ namespace LTHDotNetCore.RestApi.Controllers
             Password = "sa@123",
             TrustServerCertificate = true
         };
+
+        private readonly ILogger<BlogDapperController> _logger;
+
+        public BlogDapperController(ILogger<BlogDapperController> logger)
+        {
+            _logger = logger;
+        }
+
 
         #region Get all blogs
         [HttpGet]
@@ -83,6 +92,7 @@ namespace LTHDotNetCore.RestApi.Controllers
         {
             try
             {
+                _logger.LogInformation("Create blog request model => " + JsonConvert.SerializeObject(blogDataModel));
                 string query = @"INSERT INTO [dbo].[Tbl_blog]
     ([Blog_Title]
     ,[Blog_Author]
@@ -92,7 +102,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
                 int result = db.Execute(query, blogDataModel);
                 string message = result > 0 ? "Saving Successful!" : "Saving Fail!";
 
-                Log.Information(message);
+                _logger.LogInformation(message);
                 return result > 0 ? Ok(message) : BadRequest(message);
             }
             catch (Exception ex)
@@ -108,7 +118,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
         {
             try
             {
-
+                _logger.LogInformation("Update blog request model => " + JsonConvert.SerializeObject(blogDataModel));
                 // check not found scenario
                 string query = @"SELECT [Blog_Id]
       ,[Blog_Title]
@@ -168,6 +178,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
         {
             try
             {
+                _logger.LogInformation("Patch blog request model => " + JsonConvert.SerializeObject(blogDataModel));
                 using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
                 // check not found scenario
                 string query = @"SELECT [Blog_Id]

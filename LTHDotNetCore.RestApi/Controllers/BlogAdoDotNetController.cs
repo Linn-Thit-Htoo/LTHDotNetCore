@@ -11,6 +11,13 @@ namespace LTHDotNetCore.RestApi.Controllers
     [ApiController]
     public class BlogAdoDotNetController : ControllerBase
     {
+        private readonly ILogger<BlogAdoDotNetController> _logger;
+
+        public BlogAdoDotNetController(ILogger<BlogAdoDotNetController> logger)
+        {
+            _logger = logger;
+        }
+
         SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
         {
             DataSource = ".",
@@ -94,6 +101,7 @@ namespace LTHDotNetCore.RestApi.Controllers
         {
             try
             {
+                _logger.LogInformation("Create Ado .NET blog Model => " + JsonConvert.SerializeObject(blogDataModel));
                 SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
                 string query = @"INSERT INTO [dbo].[Tbl_blog]
@@ -112,7 +120,7 @@ VALUES (@Blog_Title
                 connection.Close();
                 string message = result > 0 ? "Inserted Successfully!" : "Insert data fail!";
 
-                Log.Information(message);
+                _logger.LogInformation(message);
                 return Ok(message);
             }
             catch (Exception ex)
@@ -128,6 +136,7 @@ VALUES (@Blog_Title
         {
             try
             {
+                _logger.LogInformation("Put Ado .NET blog Model => " + JsonConvert.SerializeObject(blogDataModel));
                 if (string.IsNullOrEmpty(blogDataModel.Blog_Title))
                 {
                     return BadRequest("Blog title is required.");
@@ -179,7 +188,7 @@ VALUES (@Blog_Title
                 connection.Close();
                 string message = result > 0 ? "Updated Successfully!" : "Update Fail!";
 
-                Log.Debug(message);
+                _logger.LogInformation(message);
                 return Ok(message);
             }
             catch (Exception ex)
@@ -195,6 +204,7 @@ VALUES (@Blog_Title
         {
             try
             {
+                _logger.LogInformation("Patch Ado .NET blog Model => " + JsonConvert.SerializeObject(blogDataModel));
                 // check not found scenario
                 SqlConnection connection = new(sqlConnectionStringBuilder.ConnectionString);
                 connection.Open();
@@ -265,8 +275,10 @@ VALUES (@Blog_Title
 
                 cmdUpdate.Parameters.AddWithValue("@Blog_Id", id);
                 int result = cmdUpdate.ExecuteNonQuery();
+                string message = result > 0 ? "Updating Success!" : "Updating Fail!";
+                _logger.LogInformation(message);
 
-                return result > 0 ? StatusCode(StatusCodes.Status202Accepted, "Updating Success!") : BadRequest("Updating Fail!");
+                return result > 0 ? StatusCode(StatusCodes.Status202Accepted, message) : BadRequest(message);
 
             }
             catch (Exception ex)
@@ -292,7 +304,7 @@ VALUES (@Blog_Title
                 connection.Close();
                 string message = result > 0 ? "Deleted Successfully!" : "Delete data fail!";
 
-                Log.Information(message);
+                _logger.LogInformation(message);
                 return Ok(message);
             }
             catch (Exception ex)
