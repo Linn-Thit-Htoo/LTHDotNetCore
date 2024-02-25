@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using LTHDotNetCore.ConsoleApp;
 using LTHDotNetCore.RestApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -12,6 +13,15 @@ namespace LTHDotNetCore.RestApi.Controllers
     [ApiController]
     public class BlogDapperController : ControllerBase
     {
+        private readonly ILogger<BlogDapperController> _logger;
+        private readonly ILoggerManager _nLog;
+
+        public BlogDapperController(ILogger<BlogDapperController> logger, ILoggerManager nLog)
+        {
+            _logger = logger;
+            this._nLog = nLog;
+        }
+
         SqlConnectionStringBuilder _sqlConnectionStringBuilder = new()
         {
             DataSource = ".",
@@ -21,20 +31,13 @@ namespace LTHDotNetCore.RestApi.Controllers
             TrustServerCertificate = true
         };
 
-        private readonly ILogger<BlogDapperController> _logger;
-
-        public BlogDapperController(ILogger<BlogDapperController> logger)
-        {
-            _logger = logger;
-        }
-
-
         #region Get all blogs
         [HttpGet]
         public IActionResult GetBLogs()
         {
             try
             {
+                _nLog.LogInfo("Using nLog!");
                 string query = @"SELECT [Blog_Id]
       ,[Blog_Title]
       ,[Blog_Author]
@@ -48,6 +51,7 @@ namespace LTHDotNetCore.RestApi.Controllers
                     return NotFound("No data found.");
                 }
 
+                _logger.LogInformation("Blog List => " + JsonConvert.SerializeObject(lst));
                 return Ok(lst);
             }
             catch (Exception ex)
@@ -77,6 +81,7 @@ namespace LTHDotNetCore.RestApi.Controllers
                     return NotFound("No data found.");
                 }
 
+                _logger.LogInformation("Blog item => " + JsonConvert.SerializeObject(item));
                 return Ok(item);
             }
             catch (Exception ex)
@@ -267,7 +272,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
                 int result = db.Execute(queryDelete, blogDataModel);
                 string message = result > 0 ? "Deleting Successful!" : "Deleting Fail!";
 
-                Log.Information(message);
+                _logger.LogInformation(message);
                 return result > 0 ? Ok(message) : BadRequest(message);
             }
             catch (Exception ex)

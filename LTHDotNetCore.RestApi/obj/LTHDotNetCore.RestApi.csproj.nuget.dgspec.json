@@ -63,6 +63,10 @@
               "target": "Package",
               "version": "[7.0.14, )"
             },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"

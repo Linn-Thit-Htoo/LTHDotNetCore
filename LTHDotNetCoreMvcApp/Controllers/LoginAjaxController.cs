@@ -1,7 +1,6 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Serilog;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
@@ -41,7 +40,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 await _appDbContext.Login.AddAsync(loginDataModel);
                 int result = await _appDbContext.SaveChangesAsync();
                 string message = result > 0 ? "Saving Successful." : "Saving Failed.";
-                Log.Information(message);
 
                 return Json(new { Message = message });
             }
@@ -88,7 +86,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 int result = await _appDbContext.SaveChangesAsync();
                 string message = result > 0 ? "Updating Successful." : "Updating Failed.";
-                Log.Information(message);
 
                 return Json(new { Message = message});
             }
@@ -112,7 +109,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 _appDbContext.Remove(item);
                 int result = await _appDbContext.SaveChangesAsync();
                 string message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
-                Log.Information(message);
 
                 return Json(new { Message = message});
             }

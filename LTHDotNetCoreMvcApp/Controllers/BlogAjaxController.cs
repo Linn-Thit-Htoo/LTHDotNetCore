@@ -1,7 +1,6 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Serilog;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
@@ -40,7 +39,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 await _appDbContext.Blogs.AddAsync(blogDataModel);
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Saving Successful." : "Saving Failed.";
-                Log.Information(message);
 
                 return Json(new { Message = message });
             }
@@ -78,7 +76,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 var item = await _appDbContext.Blogs.Where(x => x.Blog_Id == id).FirstOrDefaultAsync();
                 if (item is null)
                 {
-                    Log.Information("No data found");
                     return RedirectToAction("Index");
                 }
 
@@ -88,7 +85,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Updating Successful." : "Updating Failed.";
-                Log.Information(message);
 
                 return Json(new { Message = message });
             }
@@ -112,7 +108,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 _appDbContext.Remove(item);
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
-                Log.Information(message);
 
                 return Json(new { Message = message });
             }

@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
-using Serilog;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
@@ -50,7 +49,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Log.Information(response.Content!);
+                    //Log.Information(response.Content!);
                 }
 
                 return RedirectToAction("Index");
@@ -98,7 +97,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Log.Information(response.Content!);
+                    //Log.Information(response.Content!);
                 }
 
                 return RedirectToAction("Index");
@@ -120,7 +119,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Log.Information(response.Content!);
+                    //Log.Information(response.Content!);
                 }
 
                 return RedirectToAction("Index");

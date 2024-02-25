@@ -1,8 +1,6 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Serilog;
-using System.Runtime.InteropServices;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
@@ -47,7 +45,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 await _appDbContext.Login.AddAsync(loginDataModel);
                 int result = await _appDbContext.SaveChangesAsync();
                 string message = result > 0 ? "Saving Successful!" : "Saving Fail!";
-                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -94,7 +91,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 int result = await _appDbContext.SaveChangesAsync();
                 string message = result > 0 ? "Updating Successful!" : "Updating Fail1";
-                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -117,7 +113,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 _appDbContext.Remove(item);
                 int result = await _appDbContext.SaveChangesAsync();
                 string message = result > 0 ? "Deleting Successful!" : "Deleting Fail!";
-                Log.Information(message);
 
                 return RedirectToAction("Index");
             }

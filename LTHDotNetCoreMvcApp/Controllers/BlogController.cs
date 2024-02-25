@@ -1,17 +1,18 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Serilog;
+using log4net;
 
 namespace LTHDotNetCoreMvcApp.Controllers
 {
     public class BlogController : Controller
     {
         private readonly AppDbContext _appDbContext;
-
-        public BlogController(AppDbContext appDbContext)
+        private readonly ILog _logger;
+        public BlogController(AppDbContext appDbContext, ILog logger)
         {
             _appDbContext = appDbContext;
+            _logger = logger;
         }
 
         #region pagination
@@ -55,7 +56,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
             var lst = await _appDbContext.Blogs
                 .OrderByDescending(x => x.Blog_Id)
                 .ToListAsync();
-
+            _logger.Info("Log from MVC");
             return View(lst);
         }
         #endregion
@@ -77,7 +78,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 int result = await _appDbContext.SaveChangesAsync();
 
                 var message = result > 0 ? "Saving Successful!" : "Saving Fail!";
-                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -121,7 +121,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 item.Blog_Content = blogDataModel.Blog_Content;
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Updating Successful!" : "Updating Fail!";
-                Log.Information(message);
 
                 return RedirectToAction("Index");
             }
@@ -145,7 +144,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 int result = await _appDbContext.SaveChangesAsync();
                 var message = result > 0 ? "Deteting Successful!" : "Deleting Fail!";
 
-                Log.Information(message);
                 return RedirectToAction("Index");
             }
             catch (Exception ex)

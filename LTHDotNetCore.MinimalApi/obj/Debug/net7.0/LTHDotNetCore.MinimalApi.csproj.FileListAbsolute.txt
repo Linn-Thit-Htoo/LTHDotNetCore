@@ -25,6 +25,10 @@ D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.IdentityMod
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\NLog.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Serilog.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Serilog.Sinks.File.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -69,5 +73,3 @@ D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\refint\LTHDotNetCore.
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\LTHDotNetCore.MinimalApi.pdb
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\LTHDotNetCore.MinimalApi.genruntimeconfig.cache
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\ref\LTHDotNetCore.MinimalApi.dll
-D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Serilog.dll
-D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Serilog.Sinks.File.dll

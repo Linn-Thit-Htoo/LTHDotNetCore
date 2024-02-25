@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Serilog;
+using System.Collections.Generic;
 
 namespace LTHDotNetCore.RestApi.Controllers
 {
@@ -19,8 +20,6 @@ namespace LTHDotNetCore.RestApi.Controllers
             _logger = logger;
         }
 
-
-
         #region Get all blogs
         [HttpGet]
         public IActionResult GetBlogs()
@@ -31,6 +30,8 @@ namespace LTHDotNetCore.RestApi.Controllers
                     .AsNoTracking()
                     .OrderByDescending(x => x.Blog_Id)
                     .ToList();
+                _logger.LogInformation("Get EF Core Blog list => " + JsonConvert.SerializeObject(lst));
+
                 return Ok(lst);
             }
             catch (Exception ex)
@@ -51,6 +52,8 @@ namespace LTHDotNetCore.RestApi.Controllers
                 {
                     return NotFound("No data found.");
                 }
+                _logger.LogInformation("Get EF Core Blog item => " + JsonConvert.SerializeObject(item));
+
                 return Ok(item);
             }
             catch (Exception ex)
@@ -67,11 +70,12 @@ namespace LTHDotNetCore.RestApi.Controllers
             try
             {
                 _logger.LogInformation("EF Core create blog model => ", JsonConvert.SerializeObject(blogDataModel));
+
                 _dbContext.Blogs.Add(blogDataModel);
                 var result = _dbContext.SaveChanges();
                 var message = result > 0 ? "Saving Successful." : "Saving Failed";
+                _logger.LogInformation("EF Core create blog message => " + message);
 
-                _logger.LogInformation(message);
                 return Ok(message);
             }
             catch (Exception ex)
@@ -115,8 +119,8 @@ namespace LTHDotNetCore.RestApi.Controllers
 
                 int result = _dbContext.SaveChanges();
                 string message = result > 0 ? "Updating Successful." : "Updating Failed.";
+                _logger.LogInformation("EF Core update blog message => " + message);
 
-                _logger.LogInformation(message);
                 return Ok(message);
 
             }
@@ -134,6 +138,7 @@ namespace LTHDotNetCore.RestApi.Controllers
             try
             {
                 _logger.LogInformation("EF Core PatchBlog model => ", JsonConvert.SerializeObject(blogDataModel));
+
                 var item = _dbContext.Blogs.FirstOrDefault(x => x.Blog_Id == id);
                 if (item is null)
                 {
@@ -157,8 +162,8 @@ namespace LTHDotNetCore.RestApi.Controllers
 
                 int result = _dbContext.SaveChanges();
                 string message = result > 0 ? "Updating Successful." : "Updating Failed.";
+                _logger.LogInformation("EF Core Patch blog message => " + message);
 
-                _logger.LogInformation(message);
                 return Ok(message);
             }
             catch (Exception ex)
@@ -184,8 +189,8 @@ namespace LTHDotNetCore.RestApi.Controllers
                 _dbContext.Blogs.Remove(item);
                 int result = _dbContext.SaveChanges();
                 string message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
+                _logger.LogInformation("EF Core delete blog message => " + message);
 
-                Log.Information(message);
                 return Ok(message);
             }
             catch (Exception ex)

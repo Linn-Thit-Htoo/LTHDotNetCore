@@ -1,7 +1,6 @@
 ﻿using LTHDotNetCoreMvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Serilog;
 using System.Text;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -57,7 +56,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     string message = await response.Content.ReadAsStringAsync();
-                    Log.Information(message);
                 }
                 return RedirectToAction("Index");
             }
@@ -102,7 +100,6 @@ namespace LTHDotNetCoreMvcApp.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     string message = await response.Content.ReadAsStringAsync();
-                    Log.Information(message);
                 }
                 return RedirectToAction("Index");
             }
@@ -123,7 +120,7 @@ namespace LTHDotNetCoreMvcApp.Controllers
 
                 if (response.IsSuccessStatusCode)
                 {
-                    Log.Information(await response.Content.ReadAsStringAsync());
+                    //Log.Information(await response.Content.ReadAsStringAsync());
                 }
 
                 return RedirectToAction("Index");

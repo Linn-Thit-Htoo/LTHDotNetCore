@@ -1,13 +1,17 @@
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\appsettings.Development.json
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\appsettings.json
+D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\libman.json
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\LTHDotNetCoreMvcApp.staticwebassets.runtime.json
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\LTHDotNetCoreMvcApp.exe
+D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\log4net.config
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\LTHDotNetCoreMvcApp.deps.json
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\LTHDotNetCoreMvcApp.runtimeconfig.json
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\LTHDotNetCoreMvcApp.dll
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\LTHDotNetCoreMvcApp.pdb
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Azure.Core.dll
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Azure.Identity.dll
+D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\log4net.dll
+D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\log4net.Ext.Json.dll
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
@@ -73,5 +77,3 @@ D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\refint\LTHDotNetCoreMvcApp
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\LTHDotNetCoreMvcApp.pdb
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\LTHDotNetCoreMvcApp.genruntimeconfig.cache
 D:\LTHDotNetCore\LTHDotNetCoreMvcApp\obj\Debug\net7.0\ref\LTHDotNetCoreMvcApp.dll
-D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Serilog.dll
-D:\LTHDotNetCore\LTHDotNetCoreMvcApp\bin\Debug\net7.0\Serilog.Sinks.File.dll
