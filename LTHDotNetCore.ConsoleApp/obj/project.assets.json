@@ -1225,6 +1225,20 @@
             "rid": "win"
           }
         }
+      },
+      "LTHDotNetCore.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/LTHDotNetCore.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LTHDotNetCore.Services.dll": {}
+        }
       }
     }
   },
@@ -3370,11 +3384,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LTHDotNetCore.Services/1.0.0": {
+      "type": "project",
+      "path": "../LTHDotNetCore.Services/LTHDotNetCore.Services.csproj",
+      "msbuildProject": "../LTHDotNetCore.Services/LTHDotNetCore.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Dapper >= 2.1.24",
+      "LTHDotNetCore.Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
@@ -3410,7 +3430,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj": {
+              "projectPath": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

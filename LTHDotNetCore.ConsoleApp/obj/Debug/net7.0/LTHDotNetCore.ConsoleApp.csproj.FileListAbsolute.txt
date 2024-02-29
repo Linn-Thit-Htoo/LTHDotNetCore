@@ -77,3 +77,5 @@ D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\refint\LTHDotNetCore.
 D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\LTHDotNetCore.ConsoleApp.pdb
 D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\LTHDotNetCore.ConsoleApp.genruntimeconfig.cache
 D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\obj\Debug\net7.0\ref\LTHDotNetCore.ConsoleApp.dll
+D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\bin\Debug\net7.0\LTHDotNetCore.Services.dll
+D:\LTHDotNetCore\LTHDotNetCore.ConsoleApp\bin\Debug\net7.0\LTHDotNetCore.Services.pdb

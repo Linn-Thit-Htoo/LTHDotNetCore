@@ -1,0 +1,12 @@
+D:\LTHDotNetCore\LTHDotNetCore.Services\bin\Debug\net7.0\LTHDotNetCore.Services.deps.json
+D:\LTHDotNetCore\LTHDotNetCore.Services\bin\Debug\net7.0\LTHDotNetCore.Services.dll
+D:\LTHDotNetCore\LTHDotNetCore.Services\bin\Debug\net7.0\LTHDotNetCore.Services.pdb
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\LTHDotNetCore.Services.csproj.AssemblyReference.cache
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\LTHDotNetCore.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\LTHDotNetCore.Services.AssemblyInfoInputs.cache
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\LTHDotNetCore.Services.AssemblyInfo.cs
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\LTHDotNetCore.Services.csproj.CoreCompileInputs.cache
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\LTHDotNetCore.Services.dll
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\refint\LTHDotNetCore.Services.dll
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\LTHDotNetCore.Services.pdb
+D:\LTHDotNetCore\LTHDotNetCore.Services\obj\Debug\net7.0\ref\LTHDotNetCore.Services.dll

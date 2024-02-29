@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCoreMvcApp", "LTHD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.MinimalApi", "LTHDotNetCore.MinimalApi\LTHDotNetCore.MinimalApi.csproj", "{B477A2F4-FB7E-402F-86A5-862E73542A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.RealtimeChartUsingSignalR", "LTHDotNetCore.RealtimeChartUsingSignalR\LTHDotNetCore.RealtimeChartUsingSignalR.csproj", "{4B86F44F-8D41-4A94-B9BE-5FBE27718824}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.RealtimeChartUsingSignalR", "LTHDotNetCore.RealtimeChartUsingSignalR\LTHDotNetCore.RealtimeChartUsingSignalR.csproj", "{4B86F44F-8D41-4A94-B9BE-5FBE27718824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.Services", "LTHDotNetCore.Services\LTHDotNetCore.Services.csproj", "{4FB62566-B992-4BEE-A1E1-F25A62D637D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4B86F44F-8D41-4A94-B9BE-5FBE27718824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B86F44F-8D41-4A94-B9BE-5FBE27718824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B86F44F-8D41-4A94-B9BE-5FBE27718824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB62566-B992-4BEE-A1E1-F25A62D637D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB62566-B992-4BEE-A1E1-F25A62D637D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB62566-B992-4BEE-A1E1-F25A62D637D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB62566-B992-4BEE-A1E1-F25A62D637D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
