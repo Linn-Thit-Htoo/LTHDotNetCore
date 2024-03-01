@@ -10,13 +10,11 @@ D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\LTHDotNetCore.RestApi.pd
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Azure.Core.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Azure.Identity.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Dapper.dll
-D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Humanizer.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -42,7 +40,6 @@ D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.IdentityModel.
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\NLog.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\NLog.Extensions.Logging.dll
@@ -61,7 +58,6 @@ D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Serilog.Sinks.PeriodicBa
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\System.CodeDom.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\System.Drawing.Common.dll
@@ -107,3 +103,11 @@ D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\refint\LTHDotNetCore.Res
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\LTHDotNetCore.RestApi.pdb
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\LTHDotNetCore.RestApi.genruntimeconfig.cache
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\ref\LTHDotNetCore.RestApi.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\LTHDotNetCore.Services.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\LTHDotNetCore.Services.pdb

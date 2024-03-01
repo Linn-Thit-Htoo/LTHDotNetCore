@@ -1,12 +1,14 @@
 using LTHDotNetCore.MinimalApi;
 using LTHDotNetCore.RestApi;
 using LTHDotNetCore.RestApi.Middlewares;
+using LTHDotNetCore.Services;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using Serilog;
 using Serilog.Formatting.Compact;
 using Serilog.Sinks.MSSqlServer;
 using Serilog.Templates;
+using System.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +37,9 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
 }, ServiceLifetime.Transient);
+
+builder.Services.AddScoped(n =>
+ new AdoDotNetService(new SqlConnectionStringBuilder(builder.Configuration.GetConnectionString("DbConnection"))));
 
 builder.Services.ConfigureLoggerService();
 
