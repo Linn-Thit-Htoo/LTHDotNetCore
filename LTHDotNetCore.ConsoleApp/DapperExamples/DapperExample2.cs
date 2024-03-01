@@ -1,7 +1,5 @@
 ﻿using LTHDotNetCore.ConsoleApp.Models;
 using System.Data.SqlClient;
-using System.Data;
-using Dapper;
 using LTHDotNetCore.Services;
 
 namespace LTHDotNetCore.ConsoleApp.DapperExamples
@@ -17,11 +15,11 @@ namespace LTHDotNetCore.ConsoleApp.DapperExamples
         });
         public void Run()
         {
-            //Read();
-            Edit(64);
+            Read();
+            //Edit(64);
             //Create("dapper blog", "dapper author", "dapper content");
-            //Update(8, "dapper blog edited", "dapper author edited", "dapper content edited");
-            //Delete(3);
+            //Update(64, "dapper blog edited", "dapper author edited", "dapper content edited");
+            //Delete(64);
         }
 
         #region Read
@@ -34,9 +32,9 @@ namespace LTHDotNetCore.ConsoleApp.DapperExamples
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]";
-
                 List<BlogDataModel> lst = _dapperService.Query<BlogDataModel>(query).ToList();
 
+                //var lst = _dapperService.Query(query).ToList();
                 foreach (BlogDataModel item in lst)
                 {
                     Console.WriteLine($"Blog Id => {item.Blog_Id}");
@@ -84,77 +82,77 @@ namespace LTHDotNetCore.ConsoleApp.DapperExamples
         }
         #endregion
 
-        //        #region Create
-        //        private void Create(string title, string author, string content)
-        //        {
-        //            string query = @"INSERT INTO [dbo].[Tbl_blog]
-        //    ([Blog_Title]
-        //    ,[Blog_Author]
-        //    ,[Blog_Content])
-        //VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
-        //            using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
-        //            BlogDataModel blog = new()
-        //            {
-        //                Blog_Title = title,
-        //                Blog_Author = author,
-        //                Blog_Content = content
-        //            };
-        //            int result = db.Execute(query, blog);
-        //            string message = result > 0 ? "Created Successfully!" : "Created Fail!";
-        //            Console.WriteLine(message);
-        //        }
-        //        #endregion
+        #region Create
+        private void Create(string title, string author, string content)
+        {
+            string query = @"INSERT INTO [dbo].[Tbl_blog]
+            ([Blog_Title]
+            ,[Blog_Author]
+            ,[Blog_Content])
+        VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
+            BlogDataModel blog = new()
+            {
+                Blog_Title = title,
+                Blog_Author = author,
+                Blog_Content = content
+            };
+            int result = _dapperService.Execute(query, blog);
+            string message = result > 0 ? "Created Successfully!" : "Created Fail!";
 
-        //        #region Update
-        //        private void Update(int id, string title, string author, string content)
-        //        {
-        //            try
-        //            {
-        //                string query = @"UPDATE [dbo].[Tbl_blog]
-        //   SET [Blog_Title] = @Blog_Title
-        //      ,[Blog_Author] = @Blog_Author
-        //      ,[Blog_Content] = @Blog_Content
-        // WHERE Blog_Id = @Blog_Id;";
-        //                using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
-        //                BlogDataModel blog = new()
-        //                {
-        //                    Blog_Id = id,
-        //                    Blog_Title = title,
-        //                    Blog_Author = author,
-        //                    Blog_Content = content
-        //                };
-        //                int result = db.Execute(query, blog);
-        //                string message = result > 0 ? "Updated Successfully!" : "Updated Fail!";
-        //                Console.WriteLine(message);
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                Console.WriteLine(ex.Message);
-        //            }
-        //        }
-        //        #endregion
+            Console.WriteLine(message);
+        }
+        #endregion
 
-        //        #region Delete
-        //        private void Delete(int id)
-        //        {
-        //            try
-        //            {
-        //                string query = @"DELETE FROM [dbo].[Tbl_blog]
-        //      WHERE Blog_Id = @BLog_Id;";
-        //                BlogDataModel blog = new()
-        //                {
-        //                    Blog_Id = id,
-        //                };
-        //                using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
-        //                int result = db.Execute(query, blog);
-        //                string message = result > 0 ? "Deleted Successfully!" : "Delete Fail!";
-        //                Console.WriteLine(message);
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                Console.WriteLine(ex.Message);
-        //            }
-        //        }
-        //        #endregion
+        #region Update
+        private void Update(int id, string title, string author, string content)
+        {
+            try
+            {
+                string query = @"UPDATE [dbo].[Tbl_blog]
+           SET [Blog_Title] = @Blog_Title
+              ,[Blog_Author] = @Blog_Author
+              ,[Blog_Content] = @Blog_Content
+         WHERE Blog_Id = @Blog_Id;";
+                BlogDataModel blog = new()
+                {
+                    Blog_Id = id,
+                    Blog_Title = title,
+                    Blog_Author = author,
+                    Blog_Content = content
+                };
+                int result = _dapperService.Execute(query, blog);
+                string message = result > 0 ? "Updated Successfully!" : "Updated Fail!";
+
+                Console.WriteLine(message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        #endregion
+
+        #region Delete
+        private void Delete(int id)
+        {
+            try
+            {
+                string query = @"DELETE FROM [dbo].[Tbl_blog]
+              WHERE Blog_Id = @BLog_Id;";
+                BlogDataModel blog = new()
+                {
+                    Blog_Id = id,
+                };
+                int result = _dapperService.Execute(query, blog);
+                string message = result > 0 ? "Deleted Successfully!" : "Delete Fail!";
+
+                Console.WriteLine(message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        #endregion
     }
 }

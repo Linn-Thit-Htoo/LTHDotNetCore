@@ -19,5 +19,18 @@ namespace LTHDotNetCore.Services
             return db.Query<T>(sql, param, commandType: commandType);
         }
 
+        public IEnumerable<dynamic> Query(string sql, object? param = null, CommandType commandType = CommandType.Text)
+        {
+            using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
+            return db.Query(sql, param, commandType: commandType);
+        }
+
+        public int Execute(string sql, object? param = null, CommandType commandType = CommandType.Text)
+        {
+            using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
+            int result = db.Execute(sql, param, commandType: commandType);
+
+            return result;
+        }
     }
 }

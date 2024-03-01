@@ -1,0 +1,3121 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LTHDotNetCore.ThemeApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LTHDotNetCore.ThemeApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\datatables-select.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\datatables-select.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\datatables-select.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\datatables-select.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\datatables.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\datatables.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\datatables.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\datatables.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\directives.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\directives.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\directives.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\directives.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\flag.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\flag.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\flag.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\flag.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\rating.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\rating.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\rating.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\rating.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\zmd.hierarchical-display.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\zmd.hierarchical-display.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\addons\\zmd.hierarchical-display.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\addons\\zmd.hierarchical-display.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\theme\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\mdb.css",
+      "PackagePath": "staticwebassets\\theme\\css\\mdb.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\mdb.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\mdb.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\modules\\animations-extended.css",
+      "PackagePath": "staticwebassets\\theme\\css\\modules\\animations-extended.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\modules\\animations-extended.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\modules\\animations-extended.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\style.css",
+      "PackagePath": "staticwebassets\\theme\\css\\style.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\datatables-select.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\datatables-select.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\datatables-select.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\datatables-select.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\datatables.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\datatables.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\datatables.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\jquery.zmd.hierarchical-display.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\jquery.zmd.hierarchical-display.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\jquery.zmd.hierarchical-display.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\jquery.zmd.hierarchical-display.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\progressBar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\progressBar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\progressBar.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\progressBar.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\rating.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\rating.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\addons\\rating.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\addons\\rating.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\theme\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\CHANGELOG.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\CHANGELOG.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\CONTRIBUTING.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\CONTRIBUTING.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\agenda-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\agenda-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\background-events.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\background-events.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\basic-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\basic-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\default.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\default.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\external-dragging.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\external-dragging.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\gcal.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\gcal.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\js\\theme-chooser.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\js\\theme-chooser.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\json.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\json.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\json\\events.json",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\json\\events.json"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\list-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\list-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\locales.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\locales.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\php\\get-events.php",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\php\\get-events.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\php\\get-timezones.php",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\php\\get-timezones.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\php\\utils.php",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\php\\utils.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\selectable.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\selectable.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\themes.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\themes.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\timezones.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\timezones.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\demos\\week-numbers.html",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\demos\\week-numbers.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.print.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\gcal.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\gcal.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\gcal.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\gcal.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\lib\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\lib\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\lib\\moment.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\lib\\moment.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale-all.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale-all.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\af.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\af.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\bg.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\bs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\da.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\de-at.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\de-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\de.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\el.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\en-au.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\en-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\en-gb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\en-ie.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\en-nz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\es-do.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\es-us.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\es.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\et.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\et.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\eu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\fa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\gl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\he.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\he.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\hi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\hr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\id.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\is.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\is.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\it.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ka.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\kk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\lb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\lt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\lv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\mk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ms-my.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ms.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\nb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\nl-be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\nn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\pt-br.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\sl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\sq.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\sr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\th.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\vi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\fullcalendar-3.10.0\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\fullcalendar-3.10.0\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\mdb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\mdb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\mdb.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\mdb.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\datatables-select.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\datatables-select.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\datatables-select.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\datatables-select.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\datatables.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\datatables.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\datatables.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\jquery.zmd.hierarchical-display.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\jquery.zmd.hierarchical-display.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\jquery.zmd.hierarchical-display.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\jquery.zmd.hierarchical-display.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\progressBar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\progressBar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\progressBar.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\progressBar.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\rating.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\rating.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\addons\\rating.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\addons\\rating.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\bs-custom-file-input.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\bs-custom-file-input.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\buttons.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\buttons.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\cards.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\cards.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\character-counter.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\character-counter.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\chart.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\chart.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\chips.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\chips.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\collapsible.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\collapsible.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\dropdown.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\dropdown.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\enhanced-modals.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\enhanced-modals.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\file-input.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\file-input.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\forms-free.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\forms-free.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\CHANGELOG.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\CHANGELOG.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\CONTRIBUTING.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\CONTRIBUTING.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\agenda-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\agenda-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\background-events.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\background-events.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\basic-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\basic-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\default.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\default.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\external-dragging.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\external-dragging.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\gcal.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\gcal.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\js\\theme-chooser.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\js\\theme-chooser.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\json.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\json.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\json\\events.json",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\json\\events.json"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\list-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\list-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\locales.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\locales.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\php\\get-events.php",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\php\\get-events.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\php\\get-timezones.php",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\php\\get-timezones.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\php\\utils.php",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\php\\utils.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\selectable.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\selectable.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\themes.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\themes.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\timezones.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\timezones.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\week-numbers.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\demos\\week-numbers.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.print.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\gcal.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\gcal.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\gcal.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\gcal.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\lib\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\lib\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\lib\\moment.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\lib\\moment.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale-all.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale-all.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\af.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\af.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\bg.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\bs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\da.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\de-at.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\de-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\de.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\el.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-au.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-gb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-ie.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\en-nz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\es-do.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\es-us.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\es.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\et.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\et.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\eu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\gl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\he.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\he.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\hi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\hr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\id.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\is.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\is.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\it.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ka.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\kk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\lb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\lt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\lv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\mk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ms-my.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ms.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nl-be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\nn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\pt-br.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sq.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\th.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\vi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.10.0\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\CHANGELOG.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\CHANGELOG.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\CONTRIBUTING.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\CONTRIBUTING.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\agenda-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\agenda-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\background-events.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\background-events.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\basic-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\basic-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\default.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\default.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\external-dragging.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\external-dragging.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\gcal.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\gcal.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\json.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\json.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\json\\events.json",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\json\\events.json"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\list-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\list-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\locales.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\locales.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\php\\get-events.php",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\php\\get-events.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\php\\get-timezones.php",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\php\\get-timezones.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\php\\utils.php",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\php\\utils.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\selectable.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\selectable.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\theme.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\theme.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\timezones.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\timezones.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\week-numbers.html",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\demos\\week-numbers.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.print.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\gcal.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\gcal.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\gcal.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\gcal.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_diagonals-thick_90_eeeeee_40x40.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_diagonals-thick_90_eeeeee_40x40.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_100_e4f1fb_1x400.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_100_e4f1fb_1x400.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_50_3baae3_1x400.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_50_3baae3_1x400.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_80_d7ebf9_1x400.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_80_d7ebf9_1x400.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_100_f2f5f7_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_100_f2f5f7_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_70_000000_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_70_000000_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_100_deedf7_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_100_deedf7_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_25_ffef8f_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_25_ffef8f_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2694e8_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2694e8_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_3d80b3_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_3d80b3_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_72a7cf_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_72a7cf_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\cupertino\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\moment.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\lib\\moment.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale-all.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale-all.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\af.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\af.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\bg.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\da.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\de-at.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\de-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\de.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\el.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-au.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-gb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-ie.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\en-nz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\es-do.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\es.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\et.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\et.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\eu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\gl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\he.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\he.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\hi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\hr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\id.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\is.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\is.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\it.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\kk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\lb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\lt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\lv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\mk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ms-my.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ms.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nl-be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\nn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\pt-br.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\th.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\vi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\fullcalendar-3.4.0\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\jarallax-video.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\jarallax-video.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\jarallax.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\jarallax.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\jquery.easing.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\jquery.easypiechart.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\jquery.easypiechart.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\jquery.sticky.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\lightbox.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\lightbox.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\material-select.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\material-select.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\mdb-autocomplete.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\mdb-autocomplete.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\picker-date.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\picker-date.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\picker-time.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\picker-time.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\picker.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\picker.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\scrollbar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\scrollbar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\scrolling-navbar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\scrolling-navbar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\sidenav.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\sidenav.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\smooth-scroll.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\smooth-scroll.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\toastr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\toastr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\treeview.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\treeview.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\velocity.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\velocity.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\waves.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\waves.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\modules\\wow.js",
+      "PackagePath": "staticwebassets\\theme\\js\\modules\\wow.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\datatables\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\datatables\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\datatables\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\datatables\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\CHANGELOG.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\CHANGELOG.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\CONTRIBUTING.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\CONTRIBUTING.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\agenda-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\agenda-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\background-events.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\background-events.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\basic-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\basic-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\default.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\default.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\external-dragging.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\external-dragging.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\gcal.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\gcal.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\js\\theme-chooser.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\js\\theme-chooser.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\json.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\json.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\json\\events.json",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\json\\events.json"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\list-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\list-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\locales.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\locales.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\php\\get-events.php",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\php\\get-events.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\php\\get-timezones.php",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\php\\get-timezones.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\php\\utils.php",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\php\\utils.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\selectable.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\selectable.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\themes.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\themes.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\timezones.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\timezones.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\week-numbers.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\demos\\week-numbers.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\gcal.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\gcal.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\gcal.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\gcal.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\lib\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\lib\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\lib\\moment.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\lib\\moment.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale-all.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale-all.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\af.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\af.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\bg.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\bs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\da.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\de-at.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\de-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\de.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\el.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-au.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-gb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-ie.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\en-nz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\es-do.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\es-us.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\es.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\et.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\et.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\eu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\gl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\he.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\he.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\hi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\hr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\id.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\is.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\is.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\it.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ka.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\kk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\lb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\lt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\lv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\mk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ms-my.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ms.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nl-be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\nn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\pt-br.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sq.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\th.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\vi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.10.0\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\CHANGELOG.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\CHANGELOG.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\CONTRIBUTING.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\CONTRIBUTING.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\agenda-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\agenda-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\background-events.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\background-events.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\basic-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\basic-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\default.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\default.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\external-dragging.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\external-dragging.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\gcal.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\gcal.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\json.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\json.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\json\\events.json",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\json\\events.json"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\list-views.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\list-views.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\locales.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\locales.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\php\\get-events.php",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\php\\get-events.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\php\\get-timezones.php",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\php\\get-timezones.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\php\\utils.php",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\php\\utils.php"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\selectable.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\selectable.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\theme.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\theme.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\timezones.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\timezones.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\week-numbers.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\demos\\week-numbers.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.print.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\gcal.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\gcal.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\gcal.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\gcal.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_diagonals-thick_90_eeeeee_40x40.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_diagonals-thick_90_eeeeee_40x40.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_100_e4f1fb_1x400.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_100_e4f1fb_1x400.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_50_3baae3_1x400.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_50_3baae3_1x400.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_80_d7ebf9_1x400.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_glass_80_d7ebf9_1x400.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_100_f2f5f7_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_100_f2f5f7_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_70_000000_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-hard_70_000000_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_100_deedf7_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_100_deedf7_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_25_ffef8f_1x100.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-bg_highlight-soft_25_ffef8f_1x100.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2694e8_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2694e8_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_3d80b3_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_3d80b3_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_72a7cf_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_72a7cf_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\cupertino\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\jquery.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\moment.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\lib\\moment.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale-all.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale-all.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\af.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\af.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\bg.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\da.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\de-at.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\de-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\de.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\el.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-au.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-gb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-ie.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\en-nz.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\es-do.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\es.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\et.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\et.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\eu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fa.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\gl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\he.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\he.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\hi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\hr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\id.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\is.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\is.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\it.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\kk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\lb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\lt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\lv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\mk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ms-my.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ms.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nb.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nl-be.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\nn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\pt-br.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\th.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\vi.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\fullcalendar-3.4.0\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\jvectormap\\jquery-jvectormap-2.0.3.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\jvectormap\\jquery-jvectormap-2.0.3.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\jvectormap\\jquery-jvectormap-2.0.3.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\jvectormap\\jquery-jvectormap-2.0.3.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\jvectormap\\jquery-jvectormap-world-mill.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\jvectormap\\jquery-jvectormap-world-mill.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\langs\\readme.md",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\langs\\readme.md"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\license.txt"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\codesample\\css\\prism.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\codesample\\css\\prism.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\example\\dialog.html",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\example\\dialog.html"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\example\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\example\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\example_dependency\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\example_dependency\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\toc\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\toc\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\content.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\content.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\anchor.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\anchor.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\loader.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\loader.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\object.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\object.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\trans.gif",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\img\\trans.gif"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\skin.ie7.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\skin.ie7.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\skin.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\skins\\lightgray\\skin.min.css"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\themes\\inlite\\theme.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\themes\\inlite\\theme.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\themes\\modern\\theme.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\themes\\modern\\theme.min.js"
+    },
+    {
+      "Id": "D:\\LTHDotNetCore\\LTHDotNetCore.ThemeApp\\wwwroot\\theme\\js\\vendor\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\vendor\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LTHDotNetCore.ThemeApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.LTHDotNetCore.ThemeApp.props",
+      "PackagePath": "build\\LTHDotNetCore.ThemeApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.LTHDotNetCore.ThemeApp.props",
+      "PackagePath": "buildMultiTargeting\\LTHDotNetCore.ThemeApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.LTHDotNetCore.ThemeApp.props",
+      "PackagePath": "buildTransitive\\LTHDotNetCore.ThemeApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
