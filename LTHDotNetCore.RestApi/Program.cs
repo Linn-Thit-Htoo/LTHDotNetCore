@@ -29,7 +29,10 @@ LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nl
 
 builder.Host.UseSerilog();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(opt =>
+{
+    opt.JsonSerializerOptions.PropertyNamingPolicy = null;
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -40,6 +43,10 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 
 builder.Services.AddScoped(n =>
  new AdoDotNetService(new SqlConnectionStringBuilder(builder.Configuration.GetConnectionString("DbConnection"))));
+
+builder.Services.AddScoped(n =>
+ new DapperService(new SqlConnectionStringBuilder(builder.Configuration.GetConnectionString("DbConnection"))));
+
 
 builder.Services.ConfigureLoggerService();
 

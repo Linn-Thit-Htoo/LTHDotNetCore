@@ -7,6 +7,7 @@ D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\LTHDotNetCore.Minimal
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\LTHDotNetCore.MinimalApi.pdb
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Azure.Core.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Dapper.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -25,6 +26,7 @@ D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.IdentityMod
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\NLog.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\NLog.Extensions.Logging.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Serilog.dll
@@ -33,6 +35,7 @@ D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Swashbuckle.AspNetCor
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\System.Data.SqlClient.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\System.Drawing.Common.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\System.Memory.Data.dll
@@ -47,11 +50,18 @@ D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win-arm64\na
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\LTHDotNetCore.Services.dll
+D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\bin\Debug\net7.0\LTHDotNetCore.Services.pdb
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\LTHDotNetCore.MinimalApi.csproj.AssemblyReference.cache
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\LTHDotNetCore.MinimalApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\LTHDotNetCore\LTHDotNetCore.MinimalApi\obj\Debug\net7.0\LTHDotNetCore.MinimalApi.AssemblyInfoInputs.cache

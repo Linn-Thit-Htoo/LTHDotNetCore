@@ -179,87 +179,88 @@ VALUES (@Blog_Title
         }
         #endregion
 
-        //#region patch blog
-        //[HttpPatch("{id}")]
-        //public IActionResult PatchBlog(int id, BlogDataModel blogDataModel)
-        //{
-        //    try
-        //    {
-        //        _logger.LogInformation("Patch ADO .NET Blog model => " + JsonConvert.SerializeObject(blogDataModel));
-        //        // check not found scenario
-        //        string query = @"SELECT [Blog_Id]
-        //                              ,[Blog_Title]
-        //                              ,[Blog_Author]
-        //                              ,[Blog_Content]
-        //                          FROM [dbo].[Tbl_blog]
-        //                          WHERE Blog_Id = @Blog_Id;";
-        //        DataTable dt = _adoDotNetService.Query(query, sqlParameters: new SqlParameter("@Blog_Id", id));
+        #region patch blog
+        [HttpPatch("{id}")]
+        public IActionResult PatchBlog(int id, BlogDataModel blogDataModel)
+        {
+            try
+            {
+                _logger.LogInformation("Patch ADO .NET Blog model => " + JsonConvert.SerializeObject(blogDataModel));
+                // check not found scenario
+                string query = @"SELECT [Blog_Id]
+                                      ,[Blog_Title]
+                                      ,[Blog_Author]
+                                      ,[Blog_Content]
+                                  FROM [dbo].[Tbl_blog]
+                                  WHERE Blog_Id = @Blog_Id;";
+                DataTable dt = _adoDotNetService.Query(query, sqlParameters: new SqlParameter("@Blog_Id", id));
 
-        //        if (dt.Rows.Count == 0)
-        //        {
-        //            return NotFound("No data found.");
-        //        }
+                if (dt.Rows.Count == 0)
+                {
+                    return NotFound("No data found.");
+                }
 
-        //        // update case
-        //        string conditions = string.Empty;
+                // update case
+                string conditions = string.Empty;
 
-        //        if (!string.IsNullOrEmpty(blogDataModel.Blog_Title))
-        //        {
-        //            conditions += @" [Blog_Title] = @Blog_Title, ";
-        //        }
+                if (!string.IsNullOrEmpty(blogDataModel.Blog_Title))
+                {
+                    conditions += @" [Blog_Title] = @Blog_Title, ";
+                }
 
-        //        if (!string.IsNullOrEmpty(blogDataModel.Blog_Author))
-        //        {
-        //            conditions += @" [Blog_Author] = @Blog_Author, ";
-        //        }
+                if (!string.IsNullOrEmpty(blogDataModel.Blog_Author))
+                {
+                    conditions += @" [Blog_Author] = @Blog_Author, ";
+                }
 
-        //        if (!string.IsNullOrEmpty(blogDataModel.Blog_Content))
-        //        {
-        //            conditions += @" [Blog_Content] = @Blog_Content, ";
-        //        }
+                if (!string.IsNullOrEmpty(blogDataModel.Blog_Content))
+                {
+                    conditions += @" [Blog_Content] = @Blog_Content, ";
+                }
 
-        //        if (conditions.Length == 0)
-        //        {
-        //            return BadRequest("Invalid Request.");
-        //        }
+                if (conditions.Length == 0)
+                {
+                    return BadRequest("Invalid Request.");
+                }
 
-        //        conditions = conditions.Substring(0, conditions.Length - 2);
+                conditions = conditions.Substring(0, conditions.Length - 2);
 
-        //        string queryUpdate = $@"UPDATE [dbo].[Tbl_Blog]
-        //                               SET {conditions}
-        //                             WHERE Blog_Id = @Blog_Id";
+                string queryUpdate = $@"UPDATE [dbo].[Tbl_Blog]
+                                       SET {conditions}
+                                     WHERE Blog_Id = @Blog_Id";
 
-        //        SqlCommand cmdUpdate = new(queryUpdate, connection);
+                List<SqlParameter> parameters = new();
 
-        //        if (!string.IsNullOrEmpty(blogDataModel.Blog_Title))
-        //        {
-        //            cmdUpdate.Parameters.AddWithValue("@Blog_Title", blogDataModel.Blog_Title);
-        //        }
+                if (!string.IsNullOrEmpty(blogDataModel.Blog_Title))
+                {
+                    parameters.Add(new SqlParameter("@Blog_Title", blogDataModel.Blog_Title));
+                }
 
-        //        if (!string.IsNullOrEmpty(blogDataModel.Blog_Author))
-        //        {
-        //            cmdUpdate.Parameters.AddWithValue("@Blog_Author", blogDataModel.Blog_Author);
-        //        }
+                if (!string.IsNullOrEmpty(blogDataModel.Blog_Author))
+                {
+                    parameters.Add(new SqlParameter("@Blog_Author", blogDataModel.Blog_Author));
+                }
 
-        //        if (!string.IsNullOrEmpty(blogDataModel.Blog_Content))
-        //        {
-        //            cmdUpdate.Parameters.AddWithValue("@Blog_Content", blogDataModel.Blog_Content);
-        //        }
+                if (!string.IsNullOrEmpty(blogDataModel.Blog_Content))
+                {
+                    parameters.Add(new SqlParameter("@Blog_Content", blogDataModel.Blog_Content));
+                }
+                parameters.Add(new SqlParameter("@Blog_Id", id));
 
-        //        cmdUpdate.Parameters.AddWithValue("@Blog_Id", id);
-        //        int result = cmdUpdate.ExecuteNonQuery();
-        //        string message = result > 0 ? "Updating Success!" : "Updating Fail!";
-        //        _logger.LogInformation("Update ADO .NET Blog message => " + message);
+                int result = _adoDotNetService.Execute(queryUpdate, sqlParameters: parameters.ToArray());
+                string message = result > 0 ? "Updating Success!" : "Updating Fail!";
 
-        //        return result > 0 ? StatusCode(StatusCodes.Status202Accepted, message) : BadRequest(message);
+                _logger.LogInformation("Update ADO .NET Blog message => " + message);
 
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest(ex.Message);
-        //    }
-        //}
-        //#endregion
+                return result > 0 ? StatusCode(StatusCodes.Status202Accepted, message) : BadRequest(message);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
 
         #region Delete blog
         [HttpDelete("{id}")]

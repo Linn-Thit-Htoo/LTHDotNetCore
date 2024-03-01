@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using LTHDotNetCore.ConsoleApp;
 using LTHDotNetCore.RestApi.Models;
+using LTHDotNetCore.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
@@ -15,21 +16,14 @@ namespace LTHDotNetCore.RestApi.Controllers
     {
         private readonly ILogger<BlogDapperController> _logger;
         private readonly ILoggerManager _nLog;
+        private readonly DapperService _dapperService;
 
-        public BlogDapperController(ILogger<BlogDapperController> logger, ILoggerManager nLog)
+        public BlogDapperController(ILogger<BlogDapperController> logger, ILoggerManager nLog, DapperService dapperService)
         {
             _logger = logger;
             this._nLog = nLog;
+            _dapperService = dapperService;
         }
-
-        SqlConnectionStringBuilder _sqlConnectionStringBuilder = new()
-        {
-            DataSource = ".",
-            InitialCatalog = "DotNetClass",
-            UserID = "sa",
-            Password = "sa@123",
-            TrustServerCertificate = true
-        };
 
         #region Get all blogs
         [HttpGet]
@@ -43,8 +37,7 @@ namespace LTHDotNetCore.RestApi.Controllers
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]";
-                using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
-                List<BlogDataModel> lst = db.Query<BlogDataModel>(query).ToList();
+                List<BlogDataModel> lst = _dapperService.Query<BlogDataModel>(query).ToList();
 
                 if (lst is null)
                 {
@@ -73,8 +66,7 @@ namespace LTHDotNetCore.RestApi.Controllers
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]
   WHERE Blog_Id = @Blog_Id;";
-                using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
-                BlogDataModel? item = db.Query<BlogDataModel>(query, new { Blog_Id = id }).FirstOrDefault();
+                BlogDataModel? item = _dapperService.Query<BlogDataModel>(query, new { Blog_Id = id }).FirstOrDefault();
 
                 if (item is null)
                 {
@@ -103,8 +95,7 @@ namespace LTHDotNetCore.RestApi.Controllers
     ,[Blog_Author]
     ,[Blog_Content])
 VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
-                using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
-                int result = db.Execute(query, blogDataModel);
+                int result = _dapperService.Execute(query, blogDataModel);
                 string message = result > 0 ? "Saving Successful!" : "Saving Fail!";
 
                 _logger.LogInformation(message);
@@ -130,8 +121,9 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_Blog] where Blog_Id = @Blog_Id";
-                using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
-                BlogDataModel? item = db.Query<BlogDataModel>(query, new BlogDataModel { Blog_Id = id }).FirstOrDefault();
+                BlogDataModel? item = _dapperService
+                    .Query<BlogDataModel>(query, new BlogDataModel { Blog_Id = id })
+                    .FirstOrDefault();
                 if (item is null)
                 {
                     return NotFound("No data found.");
@@ -164,7 +156,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
       ,[Blog_Content] = @Blog_Content
  WHERE Blog_Id = @Blog_Id";
 
-                int result = db.Execute(queryUpdate, blogDataModel);
+                int result = _dapperService.Execute(queryUpdate, blogDataModel);
                 string message = result > 0 ? "Updating Successful!" : "Updating Fail!";
 
                 Log.Information(message);
@@ -184,14 +176,13 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             try
             {
                 _logger.LogInformation("Patch blog request model => " + JsonConvert.SerializeObject(blogDataModel));
-                using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
                 // check not found scenario
                 string query = @"SELECT [Blog_Id]
       ,[Blog_Title]
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_Blog] where Blog_Id = @Blog_Id";
-                BlogDataModel? item = db.Query<BlogDataModel>(query, new BlogDataModel { Blog_Id = id }).FirstOrDefault();
+                BlogDataModel? item = _dapperService.Query<BlogDataModel>(query, new BlogDataModel { Blog_Id = id }).FirstOrDefault();
                 if (item is null)
                 {
                     return NotFound("No data found.");
@@ -228,7 +219,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
    SET {conditions}
  WHERE Blog_Id = @Blog_Id";
 
-                int result = db.Execute(queryUpdate, blogDataModel);
+                int result = _dapperService.Execute(queryUpdate, blogDataModel);
                 string message = result > 0 ? "Updating Successful!" : "Updating Fail!";
 
                 Log.Information(message);
@@ -247,14 +238,15 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
         {
             try
             {
-                using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
                 // check not found scenario
                 string query = @"SELECT [Blog_Id]
       ,[Blog_Title]
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_Blog] where Blog_Id = @Blog_Id";
-                BlogDataModel? item = db.Query<BlogDataModel>(query, new BlogDataModel { Blog_Id = id }).FirstOrDefault();
+                BlogDataModel? item = _dapperService
+                    .Query<BlogDataModel>(query, new BlogDataModel { Blog_Id = id })
+                    .FirstOrDefault();
                 if (item is null)
                 {
                     return NotFound("No data found.");
@@ -269,7 +261,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
                     Blog_Id = id,
                 };
 
-                int result = db.Execute(queryDelete, blogDataModel);
+                int result = _dapperService.Execute(queryDelete, blogDataModel);
                 string message = result > 0 ? "Deleting Successful!" : "Deleting Fail!";
 
                 _logger.LogInformation(message);
