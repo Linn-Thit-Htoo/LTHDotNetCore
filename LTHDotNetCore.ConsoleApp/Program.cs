@@ -1,11 +1,15 @@
 ﻿using Azure.Core;
 using LTHDotNetCore.ConsoleApp.AdoDotNetExamples;
+using LTHDotNetCore.ConsoleApp.DapperExamples;
 using LTHDotNetCore.ConsoleApp.HttpClientExamples;
 using LTHDotNetCore.ConsoleApp.RefitExamples;
 using LTHDotNetCore.ConsoleApp.RestClientExamples;
 
-AdoDotNetExample2 adoDotNetExample = new();
-adoDotNetExample.Run();
+//AdoDotNetExample2 adoDotNetExample = new();
+//adoDotNetExample.Run();
+
+DapperExample2 dapper = new();
+dapper.Run();
 
 //HttpClientExample httpClientExample = new HttpClientExample();
 //await httpClientExample.Run();
