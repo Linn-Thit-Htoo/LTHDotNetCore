@@ -32,7 +32,9 @@ namespace LTHDotNetCore.ConsoleApp.DapperExamples
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]";
-                List<BlogDataModel> lst = _dapperService.Query<BlogDataModel>(query).ToList();
+                List<BlogDataModel> lst = _dapperService
+                    .Query<BlogDataModel>(query)
+                    .ToList();
 
                 //var lst = _dapperService.Query(query).ToList();
                 foreach (BlogDataModel item in lst)

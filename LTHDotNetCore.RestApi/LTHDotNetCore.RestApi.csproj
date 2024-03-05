@@ -26,6 +26,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\LTHDotNetCore.Models\LTHDotNetCore.Models.csproj" />
 	  <ProjectReference Include="..\LTHDotNetCore.Services\LTHDotNetCore.Services.csproj" />
 	</ItemGroup>
 

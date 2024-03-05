@@ -50,6 +50,15 @@ builder.Services.AddScoped(n =>
 
 builder.Services.ConfigureLoggerService();
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
+    {
+        policy.WithOrigins("https://localhost:7074", "http://localhost:5207");
+    });
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -61,6 +70,8 @@ if (app.Environment.IsDevelopment())
 app.UseLogHeaders();
 
 app.UseHttpsRedirection();
+
+app.UseCors(MyAllowSpecificOrigins);
 
 //app.UseMiddleware<LogHeadersMiddleware>();
 

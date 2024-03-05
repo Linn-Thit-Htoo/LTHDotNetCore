@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using Newtonsoft.Json;
-using LTHDotNetCore.RestApi.Models;
 using LTHDotNetCore.Services;
 using System.Data.SqlClient;
+using LTHDotNetCore.Models;
 
 namespace LTHDotNetCore.RestApi.Controllers
 {

@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using LTHDotNetCore.ConsoleApp;
-using LTHDotNetCore.RestApi.Models;
+using LTHDotNetCore.Models;
 using LTHDotNetCore.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;

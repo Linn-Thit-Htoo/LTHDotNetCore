@@ -1,9 +1,7 @@
-﻿using LTHDotNetCore.RestApi.Models;
+﻿using LTHDotNetCore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using Serilog;
-using System.Collections.Generic;
 
 namespace LTHDotNetCore.RestApi.Controllers
 {
@@ -21,18 +19,30 @@ namespace LTHDotNetCore.RestApi.Controllers
         }
 
         #region Get all blogs
-        [HttpGet]
-        public IActionResult GetBlogs()
+        [HttpGet("{pageNo}/{pageSize}")]
+        public async Task<IActionResult> GetBlogs(int pageNo, int pageSize)
         {
             try
             {
-                var lst = _dbContext.Blogs
-                    .AsNoTracking()
-                    .OrderByDescending(x => x.Blog_Id)
-                    .ToList();
-                _logger.LogInformation("Get EF Core Blog list => " + JsonConvert.SerializeObject(lst));
+                var lst = await _dbContext.Blogs
+                     .Skip((pageNo - 1) * pageSize)
+                     .Take(pageSize)
+                     .ToListAsync();
+                var rowCount = await _dbContext.Blogs.CountAsync();
+                var pageCount = rowCount / pageSize;
+                if (rowCount % pageSize > 0)
+                {
+                    pageCount++;
+                }
 
-                return Ok(lst);
+                return Ok(new BlogListResponseModel
+                {
+                    IsEndOfPage = pageNo >= pageCount,
+                    PageCount = pageCount,
+                    PageNo = pageNo,
+                    PageSize = pageSize,
+                    Data = lst
+                });
             }
             catch (Exception ex)
             {

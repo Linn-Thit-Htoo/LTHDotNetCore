@@ -111,3 +111,5 @@ D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\refint\LTHDotNetCore.Res
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\LTHDotNetCore.RestApi.pdb
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\LTHDotNetCore.RestApi.genruntimeconfig.cache
 D:\LTHDotNetCore\LTHDotNetCore.RestApi\obj\Debug\net7.0\ref\LTHDotNetCore.RestApi.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\LTHDotNetCore.Models.dll
+D:\LTHDotNetCore\LTHDotNetCore.RestApi\bin\Debug\net7.0\LTHDotNetCore.Models.pdb

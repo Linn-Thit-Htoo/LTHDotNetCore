@@ -1593,6 +1593,16 @@
           }
         }
       },
+      "LTHDotNetCore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LTHDotNetCore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LTHDotNetCore.Models.dll": {}
+        }
+      },
       "LTHDotNetCore.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4539,6 +4549,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "LTHDotNetCore.Models/1.0.0": {
+      "type": "project",
+      "path": "../LTHDotNetCore.Models/LTHDotNetCore.Models.csproj",
+      "msbuildProject": "../LTHDotNetCore.Models/LTHDotNetCore.Models.csproj"
+    },
     "LTHDotNetCore.Services/1.0.0": {
       "type": "project",
       "path": "../LTHDotNetCore.Services/LTHDotNetCore.Services.csproj",
@@ -4548,6 +4563,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Dapper >= 2.1.24",
+      "LTHDotNetCore.Models >= 1.0.0",
       "LTHDotNetCore.Services >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Microsoft.EntityFrameworkCore >= 7.0.14",
@@ -4590,6 +4606,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\LTHDotNetCore\\LTHDotNetCore.Models\\LTHDotNetCore.Models.csproj": {
+              "projectPath": "D:\\LTHDotNetCore\\LTHDotNetCore.Models\\LTHDotNetCore.Models.csproj"
+            },
             "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj": {
               "projectPath": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj"
             }

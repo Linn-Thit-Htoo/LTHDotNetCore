@@ -1,0 +1,12 @@
+D:\LTHDotNetCore\LTHDotNetCore.Models\bin\Debug\net7.0\LTHDotNetCore.Models.deps.json
+D:\LTHDotNetCore\LTHDotNetCore.Models\bin\Debug\net7.0\LTHDotNetCore.Models.dll
+D:\LTHDotNetCore\LTHDotNetCore.Models\bin\Debug\net7.0\LTHDotNetCore.Models.pdb
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\LTHDotNetCore.Models.csproj.AssemblyReference.cache
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\LTHDotNetCore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\LTHDotNetCore.Models.AssemblyInfoInputs.cache
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\LTHDotNetCore.Models.AssemblyInfo.cs
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\LTHDotNetCore.Models.csproj.CoreCompileInputs.cache
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\LTHDotNetCore.Models.dll
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\refint\LTHDotNetCore.Models.dll
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\LTHDotNetCore.Models.pdb
+D:\LTHDotNetCore\LTHDotNetCore.Models\obj\Debug\net7.0\ref\LTHDotNetCore.Models.dll

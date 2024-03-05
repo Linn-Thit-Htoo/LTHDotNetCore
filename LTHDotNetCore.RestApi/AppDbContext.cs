@@ -1,4 +1,4 @@
-﻿using LTHDotNetCore.RestApi.Models;
+﻿using LTHDotNetCore.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
