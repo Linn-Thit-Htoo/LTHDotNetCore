@@ -15,3 +15,18 @@
         </article>
     </main>
 </div>
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+@code
+{
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Snackbar.Configuration.SnackbarVariant = Variant.Filled;
+        }
+    }
+}

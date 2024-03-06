@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Pages/Blog/PageBlog.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xQYWdlQmxvZy5yYXpvcg==
+[D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Pages/BlogPage/BlogCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1BhZ2VcQmxvZ0NyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Pages/BlogPage/BlogEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1BhZ2VcQmxvZ0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Pages/BlogPage/BlogList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1BhZ2VcQmxvZ0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Pages/Counter.razor]
@@ -34,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Shared/ConfirmDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbmZpcm1EaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/LTHDotNetCore/LTHDotNetCore.BlazarWasm/Shared/SurveyPrompt.razor]

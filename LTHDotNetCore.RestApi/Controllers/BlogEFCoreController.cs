@@ -25,8 +25,10 @@ namespace LTHDotNetCore.RestApi.Controllers
             try
             {
                 var lst = await _dbContext.Blogs
+                    .AsNoTracking()
                      .Skip((pageNo - 1) * pageSize)
                      .Take(pageSize)
+                     //.OrderByDescending(x => x.Blog_Id)
                      .ToListAsync();
                 var rowCount = await _dbContext.Blogs.CountAsync();
                 var pageCount = rowCount / pageSize;

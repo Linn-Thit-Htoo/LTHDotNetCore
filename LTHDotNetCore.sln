@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.Services", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.ThemeApp", "LTHDotNetCore.ThemeApp\LTHDotNetCore.ThemeApp.csproj", "{19C361F6-1A06-4741-BBF5-96CF4111BB23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.BlazarWasm", "LTHDotNetCore.BlazarWasm\LTHDotNetCore.BlazarWasm.csproj", "{A53C4501-040C-40C8-A016-2DE712BB253E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.BlazarWasm", "LTHDotNetCore.BlazarWasm\LTHDotNetCore.BlazarWasm.csproj", "{A53C4501-040C-40C8-A016-2DE712BB253E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTHDotNetCore.Models", "LTHDotNetCore.Models\LTHDotNetCore.Models.csproj", "{697EDAC7-6240-4F31-9486-BDBC02FA0E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTHDotNetCore.Models", "LTHDotNetCore.Models\LTHDotNetCore.Models.csproj", "{697EDAC7-6240-4F31-9486-BDBC02FA0E86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

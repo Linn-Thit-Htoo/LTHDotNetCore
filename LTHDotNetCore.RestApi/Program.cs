@@ -53,10 +53,14 @@ builder.Services.ConfigureLoggerService();
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
-    {
-        policy.WithOrigins("https://localhost:7074", "http://localhost:5207");
-    });
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        builder =>
+        {
+            builder.WithOrigins("https://localhost:7074", "http://localhost:5207")
+                .AllowAnyMethod()
+                .AllowAnyOrigin()
+                .AllowAnyHeader();
+        });
 });
 
 var app = builder.Build();
