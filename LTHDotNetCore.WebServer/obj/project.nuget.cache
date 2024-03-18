@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "3jYnDLZwWPJPiqtikruWhZHw2QAOqIFhYhaNotr6aV/5j0n3s/j1dsO38C7cC5U1FfA2dpXhbqBieruix97l7A==",
+  "success": true,
+  "projectFilePath": "D:\\LTHDotNetCore\\LTHDotNetCore.WebServer\\LTHDotNetCore.WebServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.16\\microsoft.aspnetcore.authorization.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.16\\microsoft.aspnetcore.components.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.16\\microsoft.aspnetcore.components.analyzers.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.16\\microsoft.aspnetcore.components.forms.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.16\\microsoft.aspnetcore.components.web.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.16\\microsoft.aspnetcore.metadata.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.localization\\7.0.16\\microsoft.extensions.localization.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\7.0.16\\microsoft.extensions.localization.abstractions.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.jsinterop\\7.0.16\\microsoft.jsinterop.7.0.16.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\mudblazor\\6.17.0\\mudblazor.6.17.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
