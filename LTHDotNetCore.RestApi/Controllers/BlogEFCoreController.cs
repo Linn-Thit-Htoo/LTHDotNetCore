@@ -152,6 +152,7 @@ public class BlogEFCoreController : ControllerBase
     #endregion
 
     #region Patch Blog
+
     [HttpPatch("{id}")]
     public IActionResult PatchBlog(int id, BlogDataModel blogDataModel)
     {
