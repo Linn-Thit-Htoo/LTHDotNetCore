@@ -113,6 +113,7 @@ VALUES (@Blog_Title
         string message = result > 0 ? "Inserted Successfully!" : "Insert data fail!";
         Console.WriteLine(message);
     }
+
     #endregion
 
     #region Update
