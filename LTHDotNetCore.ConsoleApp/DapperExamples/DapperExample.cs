@@ -121,6 +121,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
     #endregion
 
     #region Update
+
     private void Update(int id, string title, string author, string content)
     {
         try
@@ -147,6 +148,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Delete
