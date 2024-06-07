@@ -56,6 +56,7 @@ public class BlogEFCoreController : ControllerBase
     #endregion
 
     #region Get blog by id
+
     [HttpGet("{id}")]
     public IActionResult GetBlog(int id)
     {
@@ -75,6 +76,7 @@ public class BlogEFCoreController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Create blog
