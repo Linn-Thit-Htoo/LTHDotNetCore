@@ -56,6 +56,7 @@ public class EFCoreExample
     #endregion
 
     #region Create
+
     private void Create(string title, string author, string content)
     {
         try
@@ -76,6 +77,7 @@ public class EFCoreExample
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Update
