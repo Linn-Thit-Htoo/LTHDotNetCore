@@ -192,7 +192,6 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
 
             #region Patch Mehtod Validation
 
-            #endregion
             if (!string.IsNullOrEmpty(blogDataModel.Blog_Title))
             {
                 conditions += @" [Blog_Title] = @Blog_Title, ";
@@ -212,6 +211,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             {
                 return BadRequest("Invalid Request.");
             }
+            #endregion
 
             conditions = conditions.Substring(0, conditions.Length - 2);
 
