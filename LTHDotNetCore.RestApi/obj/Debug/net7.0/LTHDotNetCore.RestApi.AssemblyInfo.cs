@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LTHDotNetCore.RestApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64ee88530e2dff92092325924e4a9720b7620648")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2abaebde77c9b559d0835b9cd71b25e3a850a2cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("LTHDotNetCore.RestApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LTHDotNetCore.RestApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
