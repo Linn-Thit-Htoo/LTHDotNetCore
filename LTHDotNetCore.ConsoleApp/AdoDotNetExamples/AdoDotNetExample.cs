@@ -15,6 +15,7 @@ public class AdoDotNetExample
     }
 
     #region Read
+
     private void Read()
     {
         SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
@@ -45,6 +46,7 @@ public class AdoDotNetExample
             Console.WriteLine("\n");
         }
     }
+
     #endregion
 
     #region Edit
