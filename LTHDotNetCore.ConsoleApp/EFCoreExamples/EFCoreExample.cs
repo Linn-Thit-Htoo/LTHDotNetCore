@@ -102,6 +102,7 @@ public class EFCoreExample
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Delete
