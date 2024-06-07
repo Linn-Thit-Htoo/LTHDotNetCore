@@ -104,6 +104,7 @@ public class BlogEFCoreController : ControllerBase
     #endregion
 
     #region Update blog
+
     [HttpPut("{id}")]
     public IActionResult UpdateBlog(int id, BlogDataModel blogDataModel)
     {
