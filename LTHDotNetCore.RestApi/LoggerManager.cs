@@ -1,4 +1,5 @@
-﻿using NLog;
+﻿using LTHDotNetCore.RestApi;
+using NLog;
 
 namespace LTHDotNetCore.ConsoleApp
 {

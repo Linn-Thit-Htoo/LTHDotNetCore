@@ -1,5 +1,4 @@
-﻿using LTHDotNetCore.ConsoleApp;
-using LTHDotNetCore.Models;
+﻿using LTHDotNetCore.Models;
 using LTHDotNetCore.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;

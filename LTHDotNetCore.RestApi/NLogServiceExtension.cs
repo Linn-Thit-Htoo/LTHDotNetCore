@@ -1,4 +1,5 @@
 ﻿using LTHDotNetCore.ConsoleApp;
+using LTHDotNetCore.RestApi;
 
 namespace LTHDotNetCore.MinimalApi
 {

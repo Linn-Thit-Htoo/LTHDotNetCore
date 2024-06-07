@@ -1,4 +1,4 @@
-﻿namespace LTHDotNetCore.ConsoleApp
+﻿namespace LTHDotNetCore.RestApi
 {
     public interface ILoggerManager
     {
