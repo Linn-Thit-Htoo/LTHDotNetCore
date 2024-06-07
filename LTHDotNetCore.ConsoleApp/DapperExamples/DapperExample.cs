@@ -1,4 +1,4 @@
-﻿using LTHDotNetCore.RestApi.Models;
+﻿using LTHDotNetCore.ConsoleApp.Models;
 using System.Data.SqlClient;
 using System.Data;
 using Dapper;

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Serilog;
 
-namespace LTHDotNetCore.RestApi.Controllers;
+namespace LTHDotNetCore.ConsoleApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

@@ -1,8 +1,8 @@
-﻿using LTHDotNetCore.RestApi.Models;
+﻿using LTHDotNetCore.ConsoleApp.Models;
 using Newtonsoft.Json;
 using RestSharp;
 
-namespace LTHDotNetCore.RestApi.RestClientExamples
+namespace LTHDotNetCore.ConsoleApp.RestClientExamples
 {
     public class RestClientExample
     {

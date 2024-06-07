@@ -1,7 +1,7 @@
 ﻿using LTHDotNetCore.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LTHDotNetCore.RestApi;
+namespace LTHDotNetCore.ConsoleApp;
 
 public class AppDbContext : DbContext
 {

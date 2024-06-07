@@ -1,7 +1,7 @@
-﻿using LTHDotNetCore.RestApi.Models;
+﻿using LTHDotNetCore.ConsoleApp.Models;
 using Refit;
 
-namespace LTHDotNetCore.RestApi.RefitExamples
+namespace LTHDotNetCore.ConsoleApp.RefitExamples
 {
     public interface IBlogApi
     {

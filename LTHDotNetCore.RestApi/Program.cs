@@ -1,5 +1,5 @@
-using LTHDotNetCore.RestApi;
-using LTHDotNetCore.RestApi.Middlewares;
+using LTHDotNetCore.ConsoleApp;
+using LTHDotNetCore.ConsoleApp.Middlewares;
 using LTHDotNetCore.Services;
 using Microsoft.EntityFrameworkCore;
 using NLog;

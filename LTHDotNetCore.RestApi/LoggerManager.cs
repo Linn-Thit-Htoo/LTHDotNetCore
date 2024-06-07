@@ -1,6 +1,6 @@
 ﻿using NLog;
 
-namespace LTHDotNetCore.RestApi;
+namespace LTHDotNetCore.ConsoleApp;
 
 public class LoggerManager : ILoggerManager
 {

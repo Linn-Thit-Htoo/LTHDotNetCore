@@ -5,7 +5,7 @@ using LTHDotNetCore.Services;
 using System.Data.SqlClient;
 using LTHDotNetCore.Models;
 
-namespace LTHDotNetCore.RestApi.Controllers;
+namespace LTHDotNetCore.ConsoleApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

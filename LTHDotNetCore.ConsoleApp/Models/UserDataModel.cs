@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LTHDotNetCore.RestApi.Models
+namespace LTHDotNetCore.ConsoleApp.Models
 {
     public class UserDataModel
     {

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-namespace LTHDotNetCore.RestApi.Controllers;
+namespace LTHDotNetCore.ConsoleApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

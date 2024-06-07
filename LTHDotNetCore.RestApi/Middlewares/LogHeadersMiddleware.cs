@@ -1,4 +1,4 @@
-﻿namespace LTHDotNetCore.RestApi.Middlewares;
+﻿namespace LTHDotNetCore.ConsoleApp.Middlewares;
 
 public class LogHeadersMiddleware
 {
