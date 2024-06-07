@@ -50,6 +50,7 @@ public class AdoDotNetExample
     #endregion
 
     #region Edit
+
     private void Edit(int id)
     {
         SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
