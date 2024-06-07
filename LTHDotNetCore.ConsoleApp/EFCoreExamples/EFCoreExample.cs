@@ -1,5 +1,4 @@
-﻿using LTHDotNetCore.ConsoleApp.EFCoreExamples;
-using LTHDotNetCore.ConsoleApp.Models;
+﻿using LTHDotNetCore.ConsoleApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LTHDotNetCore.ConsoleApp.EFCoreExamples
