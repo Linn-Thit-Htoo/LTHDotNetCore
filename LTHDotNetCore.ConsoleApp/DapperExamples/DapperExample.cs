@@ -98,6 +98,7 @@ public class DapperExample
     #endregion
 
     #region Create
+
     private void Create(string title, string author, string content)
     {
         string query = @"INSERT INTO [dbo].[Tbl_blog]
@@ -116,6 +117,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
         string message = result > 0 ? "Created Successfully!" : "Created Fail!";
         Console.WriteLine(message);
     }
+
     #endregion
 
     #region Update
