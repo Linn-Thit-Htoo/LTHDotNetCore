@@ -81,6 +81,7 @@ public class BlogDapperController : ControllerBase
     #endregion
 
     #region Create blog
+
     [HttpPost]
     public IActionResult CreateBlog(BlogDataModel blogDataModel)
     {
@@ -103,6 +104,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Update blog (put)
