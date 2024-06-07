@@ -71,6 +71,7 @@ public class AdoDotNetExample2
     #endregion
 
     #region Create
+
     private void Create(string title, string author, string content)
     {
         string query = @"INSERT INTO [dbo].[Tbl_blog]
@@ -93,6 +94,7 @@ VALUES (@Blog_Title
 
         Console.WriteLine(message);
     }
+
     #endregion
 
     #region Update
