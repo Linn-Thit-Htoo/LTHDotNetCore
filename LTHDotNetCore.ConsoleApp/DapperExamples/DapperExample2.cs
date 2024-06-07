@@ -89,6 +89,7 @@ public class DapperExample2
     #endregion
 
     #region Create
+
     private void Create(string title, string author, string content)
     {
         string query = @"INSERT INTO [dbo].[Tbl_blog]
@@ -107,6 +108,7 @@ public class DapperExample2
 
         Console.WriteLine(message);
     }
+
     #endregion
 
     #region Update
