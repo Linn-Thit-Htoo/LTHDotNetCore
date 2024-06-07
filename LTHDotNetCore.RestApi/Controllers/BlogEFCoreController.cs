@@ -100,6 +100,7 @@ public class BlogEFCoreController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Update blog
