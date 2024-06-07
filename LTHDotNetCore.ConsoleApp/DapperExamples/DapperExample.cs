@@ -152,6 +152,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
     #endregion
 
     #region Delete
+
     private void Delete(int id)
     {
         try
@@ -172,5 +173,6 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 }
