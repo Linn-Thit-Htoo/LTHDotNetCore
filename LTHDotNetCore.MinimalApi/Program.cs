@@ -43,4 +43,3 @@ app.UseHttpsRedirection();
 app.UseDapperService();
 
 app.Run();
-
