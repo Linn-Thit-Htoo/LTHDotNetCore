@@ -230,6 +230,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
     #endregion
 
     #region Delete blog
+
     [HttpDelete("{id}")]
     public IActionResult DeleteBlog(int id)
     {
@@ -269,5 +270,6 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 }
