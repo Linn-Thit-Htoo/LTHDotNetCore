@@ -19,6 +19,7 @@ public class BlogEFCoreController : ControllerBase
     }
 
     #region Get all blogs
+
     [HttpGet("{pageNo}/{pageSize}")]
     public async Task<IActionResult> GetBlogs(int pageNo, int pageSize)
     {
@@ -51,6 +52,7 @@ public class BlogEFCoreController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Get blog by id
