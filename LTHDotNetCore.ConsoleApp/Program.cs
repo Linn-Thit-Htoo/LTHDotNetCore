@@ -1,6 +1,6 @@
 ﻿using Azure.Core;
+using LTHDotNetCore.ConsoleApp.DapperExamples;
 using LTHDotNetCore.RestApi.AdoDotNetExamples;
-using LTHDotNetCore.RestApi.DapperExamples;
 using LTHDotNetCore.RestApi.HttpClientExamples;
 using LTHDotNetCore.RestApi.RefitExamples;
 using LTHDotNetCore.RestApi.RestClientExamples;
