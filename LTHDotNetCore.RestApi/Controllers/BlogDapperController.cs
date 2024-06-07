@@ -52,6 +52,7 @@ public class BlogDapperController : ControllerBase
     #endregion
 
     #region Get blog by id
+
     [HttpGet("{id}")]
     public IActionResult GetBLog(int id)
     {
@@ -78,6 +79,7 @@ public class BlogDapperController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Create blog
