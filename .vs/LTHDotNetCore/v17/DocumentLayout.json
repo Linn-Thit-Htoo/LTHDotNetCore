@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "D:\\LTHDotNetCore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.restapi\\controllers\\blogefcorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\controllers\\blogefcorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.restapi\\controllers\\blogdappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\controllers\\blogdappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.restapi\\controllers\\blogadodotnetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\controllers\\blogadodotnetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|d:\\lthdotnetcore\\lthdotnetcore.services\\dapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|solutionrelative:lthdotnetcore.services\\dapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|d:\\lthdotnetcore\\lthdotnetcore.services\\adodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|solutionrelative:lthdotnetcore.services\\adodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\models\\blogdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\models\\blogdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\features\\blog\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\features\\blog\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\features\\blog\\blogdapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\features\\blog\\blogdapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\features\\blog\\blogadodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\features\\blog\\blogadodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3800CF32-BE29-45CC-975F-41C2DB317A60}|LTHDotNetCoreMvcApp\\LTHDotNetCoreMvcApp.csproj|d:\\lthdotnetcore\\lthdotnetcoremvcapp\\views\\blogajax\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3800CF32-BE29-45CC-975F-41C2DB317A60}|LTHDotNetCoreMvcApp\\LTHDotNetCoreMvcApp.csproj|solutionrelative:lthdotnetcoremvcapp\\views\\blogajax\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -43,14 +87,6 @@
       "RelativeMoniker": "D:0:0:{3800CF32-BE29-45CC-975F-41C2DB317A60}|LTHDotNetCoreMvcApp\\LTHDotNetCoreMvcApp.csproj|solutionrelative:lthdotnetcoremvcapp\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|d:\\lthdotnetcore\\lthdotnetcore.services\\dapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|solutionrelative:lthdotnetcore.services\\dapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|d:\\lthdotnetcore\\lthdotnetcore.services\\adodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FB62566-B992-4BEE-A1E1-F25A62D637D5}|LTHDotNetCore.Services\\LTHDotNetCore.Services.csproj|solutionrelative:lthdotnetcore.services\\adodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,36 +103,8 @@
       "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\middlewares\\logheadersmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.restapi\\controllers\\blogefcorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\controllers\\blogefcorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.restapi\\controllers\\blogdappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\controllers\\blogdappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.restapi\\controllers\\blogadodotnetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C59561-6425-4CED-BE31-06FE53A38C46}|LTHDotNetCore.RestApi\\LTHDotNetCore.RestApi.csproj|solutionrelative:lthdotnetcore.restapi\\controllers\\blogadodotnetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B86F44F-8D41-4A94-B9BE-5FBE27718824}|LTHDotNetCore.RealtimeChartUsingSignalR\\LTHDotNetCore.RealtimeChartUsingSignalR.csproj|d:\\lthdotnetcore\\lthdotnetcore.realtimechartusingsignalr\\hubs\\teamhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B86F44F-8D41-4A94-B9BE-5FBE27718824}|LTHDotNetCore.RealtimeChartUsingSignalR\\LTHDotNetCore.RealtimeChartUsingSignalR.csproj|solutionrelative:lthdotnetcore.realtimechartusingsignalr\\hubs\\teamhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\feaatures\\blog\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\feaatures\\blog\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\feaatures\\blog\\blogdapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\feaatures\\blog\\blogdapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|d:\\lthdotnetcore\\lthdotnetcore.minimalapi\\feaatures\\blog\\blogadodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B477A2F4-FB7E-402F-86A5-862E73542A36}|LTHDotNetCore.MinimalApi\\LTHDotNetCore.MinimalApi.csproj|solutionrelative:lthdotnetcore.minimalapi\\feaatures\\blog\\blogadodotnetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{092FB85C-14FE-4218-A3BC-911DDD1F52A6}|LTHDotNetCore.ConsoleApp\\LTHDotNetCore.ConsoleApp.csproj|d:\\lthdotnetcore\\lthdotnetcore.consoleapp\\restclientexamples\\restclientexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,95 +170,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
-              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
-              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T15:13:34.101Z",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Program.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Program.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Program.cs",
+              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:52:37.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdoDotNetService.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\AdoDotNetService.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.Services\\AdoDotNetService.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\AdoDotNetService.cs",
+              "RelativeToolTip": "LTHDotNetCore.Services\\AdoDotNetService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:53:38.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
-              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
-              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T15:13:27.773Z",
+              "Title": "DapperService.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\DapperService.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.Services\\DapperService.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\DapperService.cs",
+              "RelativeToolTip": "LTHDotNetCore.Services\\DapperService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:53:41.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogAdoDotNetController.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
+              "RelativeToolTip": "LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:52:53.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogDapperController.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
+              "RelativeToolTip": "LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:13:58.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BlogEFCoreController.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
+              "RelativeToolTip": "LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T15:25:24.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\AppDbContext.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\AppDbContext.cs",
+              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\AppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:56:11.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogDataModel.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Models\\BlogDataModel.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Models\\BlogDataModel.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Models\\BlogDataModel.cs",
+              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Models\\BlogDataModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:04:35.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogService.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogService.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogService.cs",
+              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:52:31.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlogDapperService.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogDapperService.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogDapperService.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogDapperService.cs",
+              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogDapperService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:52:23.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlogAdoDotNetService.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogAdoDotNetService.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogAdoDotNetService.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogAdoDotNetService.cs",
+              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Features\\Blog\\BlogAdoDotNetService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:52:19.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Create.cshtml",
               "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Create.cshtml",
               "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Create.cshtml",
               "RelativeToolTip": "LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Create.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-15T15:13:10.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "BlogAjaxController.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
+              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:53:56.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T05:53:47.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BlogHttpClientController.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
-              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:53:50.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "BlogController.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\BlogController.cs",
@@ -262,20 +346,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogAjaxController.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
-              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Controllers\\BlogAjaxController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAACAAAAAAAAAA",
+              "DocumentIndex": 19,
+              "Title": "BlogHttpClientController.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
+              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Controllers\\BlogHttpClientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:53:47.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T05:53:50.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:53:56.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
+              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
+              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Views\\Blog\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T15:13:27.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
+              "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
+              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
+              "RelativeToolTip": "LTHDotNetCoreMvcApp\\Views\\BlogAjax\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T15:13:34.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "LoginAjaxController.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\LoginAjaxController.cs",
               "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\LoginAjaxController.cs",
@@ -287,19 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DapperService.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\DapperService.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.Services\\DapperService.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\DapperService.cs",
-              "RelativeToolTip": "LTHDotNetCore.Services\\DapperService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:53:41.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "BlogRefitController.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogRefitController.cs",
               "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\BlogRefitController.cs",
@@ -311,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "BlogRestClientController.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Controllers\\BlogRestClientController.cs",
               "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Controllers\\BlogRestClientController.cs",
@@ -323,19 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdoDotNetService.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\AdoDotNetService.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.Services\\AdoDotNetService.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.Services\\AdoDotNetService.cs",
-              "RelativeToolTip": "LTHDotNetCore.Services\\AdoDotNetService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAABQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:53:38.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "NLogServiceExtension.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\NLogServiceExtension.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\NLogServiceExtension.cs",
@@ -347,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "nlog.config",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\nlog.config",
               "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\nlog.config",
@@ -359,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Program.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Program.cs",
@@ -371,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "LogHeadersMiddleware.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Middlewares\\LogHeadersMiddleware.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Middlewares\\LogHeadersMiddleware.cs",
@@ -383,19 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BlogAdoDotNetController.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
-              "RelativeToolTip": "LTHDotNetCore.RestApi\\Controllers\\BlogAdoDotNetController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:52:53.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "TeamHub.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RealtimeChartUsingSignalR\\Hubs\\TeamHub.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.RealtimeChartUsingSignalR\\Hubs\\TeamHub.cs",
@@ -407,79 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Program.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Program.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Program.cs",
-              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:52:37.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogService.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogService.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogService.cs",
-              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:52:31.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BlogDapperController.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
-              "RelativeToolTip": "LTHDotNetCore.RestApi\\Controllers\\BlogDapperController.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAAABEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T05:13:58.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BlogEFCoreController.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
-              "RelativeToolTip": "LTHDotNetCore.RestApi\\Controllers\\BlogEFCoreController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAABEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:25:24.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BlogDapperService.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogDapperService.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogDapperService.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogDapperService.cs",
-              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogDapperService.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAADoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:52:23.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BlogAdoDotNetService.cs",
-              "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogAdoDotNetService.cs",
-              "RelativeDocumentMoniker": "LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogAdoDotNetService.cs",
-              "ToolTip": "D:\\LTHDotNetCore\\LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogAdoDotNetService.cs",
-              "RelativeToolTip": "LTHDotNetCore.MinimalApi\\Feaatures\\Blog\\BlogAdoDotNetService.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAABMAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T05:52:19.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "RestClientExample.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\RestClientExamples\\RestClientExample.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\RestClientExamples\\RestClientExample.cs",
@@ -491,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "RefitExample.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\RefitExamples\\RefitExample.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\RefitExamples\\RefitExample.cs",
@@ -503,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "IBlogApi.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\RefitExamples\\IBlogApi.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\RefitExamples\\IBlogApi.cs",
@@ -515,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "HttpClientExample.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\HttpClientExamples\\HttpClientExample.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\HttpClientExamples\\HttpClientExample.cs",
@@ -527,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "EFCoreExample.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\EFCoreExamples\\EFCoreExample.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\EFCoreExamples\\EFCoreExample.cs",
@@ -539,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\EFCoreExamples\\AppDbContext.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\EFCoreExamples\\AppDbContext.cs",
@@ -551,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "DapperExample2.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\DapperExamples\\DapperExample2.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\DapperExamples\\DapperExample2.cs",
@@ -563,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "DapperExample.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\DapperExamples\\DapperExample.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\DapperExamples\\DapperExample.cs",
@@ -575,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "AdoDotNetExample2.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\AdoDotNetExamples\\AdoDotNetExample2.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\AdoDotNetExamples\\AdoDotNetExample2.cs",
@@ -587,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "AdoDotNetExample.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.ConsoleApp\\AdoDotNetExamples\\AdoDotNetExample.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.ConsoleApp\\AdoDotNetExamples\\AdoDotNetExample.cs",
@@ -599,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.AtmConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.AtmConsoleApp\\Program.cs",
@@ -611,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCoreMvcApp\\Program.cs",
               "RelativeDocumentMoniker": "LTHDotNetCoreMvcApp\\Program.cs",
@@ -623,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "BlogList.razor.cs",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.BlazarWasm\\Pages\\BlogPage\\BlogList.razor.cs",
               "RelativeDocumentMoniker": "LTHDotNetCore.BlazarWasm\\Pages\\BlogPage\\BlogList.razor.cs",
@@ -635,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "BlogList.razor",
               "DocumentMoniker": "D:\\LTHDotNetCore\\LTHDotNetCore.BlazarWasm\\Pages\\BlogPage\\BlogList.razor",
               "RelativeDocumentMoniker": "LTHDotNetCore.BlazarWasm\\Pages\\BlogPage\\BlogList.razor",
@@ -644,16 +655,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-06T15:31:36.576Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
