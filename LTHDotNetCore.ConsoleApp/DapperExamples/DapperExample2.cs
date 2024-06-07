@@ -56,6 +56,7 @@ public class DapperExample2
     #endregion
 
     #region Edit
+
     private void Edit(int id)
     {
         try
@@ -84,6 +85,7 @@ public class DapperExample2
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Create
