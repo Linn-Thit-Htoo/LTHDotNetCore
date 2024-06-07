@@ -76,7 +76,6 @@ app.UseHttpsRedirection();
 
 app.UseCors(MyAllowSpecificOrigins);
 
-//app.UseMiddleware<LogHeadersMiddleware>();
 
 app.UseAuthorization();
 
