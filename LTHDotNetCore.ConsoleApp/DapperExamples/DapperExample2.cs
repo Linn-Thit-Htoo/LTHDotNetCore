@@ -13,6 +13,7 @@ namespace LTHDotNetCore.RestApi.DapperExamples
             UserID = "sa",
             Password = "sa@123"
         });
+
         public void Run()
         {
             Read();
