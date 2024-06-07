@@ -19,6 +19,7 @@ public class HttpClientExample
     }
 
     #region Read
+
     public async Task Read()
     {
         try
@@ -46,6 +47,7 @@ public class HttpClientExample
     #endregion
 
     #region Edit
+
     public async Task Edit(int id)
     {
         try
