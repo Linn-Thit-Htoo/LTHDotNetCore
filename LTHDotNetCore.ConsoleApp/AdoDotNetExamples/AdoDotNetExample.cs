@@ -153,6 +153,7 @@ VALUES (@Blog_Title
     #endregion
 
     #region Delete
+
     private void Delete(int id)
     {
         try
