@@ -169,6 +169,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
     #endregion
 
     #region Patch blog
+
     [HttpPatch("{id}")]
     public IActionResult PatchBlog(int id, BlogDataModel blogDataModel)
     {
@@ -229,6 +230,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Delete blog
