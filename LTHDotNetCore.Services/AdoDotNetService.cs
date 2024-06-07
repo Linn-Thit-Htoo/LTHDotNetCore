@@ -2,68 +2,67 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace LTHDotNetCore.Services
+namespace LTHDotNetCore.Services;
+
+public class AdoDotNetService
 {
-    public class AdoDotNetService
+    private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder;
+
+    public AdoDotNetService(SqlConnectionStringBuilder sqlConnectionStringBuilder)
     {
-        private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder;
+        _sqlConnectionStringBuilder = sqlConnectionStringBuilder;
+    }
 
-        public AdoDotNetService(SqlConnectionStringBuilder sqlConnectionStringBuilder)
+    public DataTable Query(string query, CommandType commandType = CommandType.Text, params SqlParameter[] sqlParameters)
+    {
+        SqlConnection connection = new(_sqlConnectionStringBuilder.ConnectionString);
+        connection.Open();
+
+        SqlCommand command = new(query, connection)
         {
-            _sqlConnectionStringBuilder = sqlConnectionStringBuilder;
-        }
+            CommandType = commandType
+        };
+        command.Parameters.AddRange(sqlParameters);
+        DataTable dt = new();
+        SqlDataAdapter sqlDataAdapter = new(command);
+        sqlDataAdapter.Fill(dt);
+        connection.Close();
 
-        public DataTable Query(string query, CommandType commandType = CommandType.Text, params SqlParameter[] sqlParameters)
+        return dt;
+    }
+
+    public List<T> Query<T>(string query, CommandType commandType = CommandType.Text, params SqlParameter[] sqlParameters)
+    {
+        SqlConnection connection = new(_sqlConnectionStringBuilder.ConnectionString);
+        connection.Open();
+
+        SqlCommand command = new(query, connection)
         {
-            SqlConnection connection = new(_sqlConnectionStringBuilder.ConnectionString);
-            connection.Open();
+            CommandType = commandType
+        };
+        command.Parameters.AddRange(sqlParameters);
+        DataTable dt = new();
+        SqlDataAdapter sqlDataAdapter = new(command);
+        sqlDataAdapter.Fill(dt);
 
-            SqlCommand command = new(query, connection)
-            {
-                CommandType = commandType
-            };
-            command.Parameters.AddRange(sqlParameters);
-            DataTable dt = new();
-            SqlDataAdapter sqlDataAdapter = new(command);
-            sqlDataAdapter.Fill(dt);
-            connection.Close();
+        string jsonStr = JsonConvert.SerializeObject(dt);
+        List<T> lst = JsonConvert.DeserializeObject<List<T>>(jsonStr)!;
+        return lst;
+    }
 
-            return dt;
-        }
+    public int Execute(string query, CommandType commandType = CommandType.Text, params SqlParameter[] sqlParameters)
+    {
+        SqlConnection connection = new(_sqlConnectionStringBuilder.ConnectionString);
+        connection.Open();
 
-        public List<T> Query<T>(string query, CommandType commandType = CommandType.Text, params SqlParameter[] sqlParameters)
+        SqlCommand command = new(query, connection)
         {
-            SqlConnection connection = new(_sqlConnectionStringBuilder.ConnectionString);
-            connection.Open();
+            CommandType = commandType
+        };
+        command.Parameters.AddRange(sqlParameters);
+        int result = command.ExecuteNonQuery();
+        connection.Close();
 
-            SqlCommand command = new(query, connection)
-            {
-                CommandType = commandType
-            };
-            command.Parameters.AddRange(sqlParameters);
-            DataTable dt = new();
-            SqlDataAdapter sqlDataAdapter = new(command);
-            sqlDataAdapter.Fill(dt);
-
-            string jsonStr = JsonConvert.SerializeObject(dt);
-            List<T> lst = JsonConvert.DeserializeObject<List<T>>(jsonStr)!;
-            return lst;
-        }
-
-        public int Execute(string query, CommandType commandType = CommandType.Text, params SqlParameter[] sqlParameters)
-        {
-            SqlConnection connection = new(_sqlConnectionStringBuilder.ConnectionString);
-            connection.Open();
-
-            SqlCommand command = new(query, connection)
-            {
-                CommandType = commandType
-            };
-            command.Parameters.AddRange(sqlParameters);
-            int result = command.ExecuteNonQuery();
-            connection.Close();
-
-            return result;
-        }
+        return result;
     }
 }
