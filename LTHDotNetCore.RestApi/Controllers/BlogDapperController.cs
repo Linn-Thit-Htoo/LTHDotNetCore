@@ -106,6 +106,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
     #endregion
 
     #region Update blog (put)
+
     [HttpPut("{id}")]
     public IActionResult Update(int id, BlogDataModel blogDataModel)
     {
@@ -164,6 +165,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Patch blog
