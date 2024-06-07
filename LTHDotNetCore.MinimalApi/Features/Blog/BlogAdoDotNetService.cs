@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace LTHDotNetCore.MinimalApi.Feaatures.Blog;
+namespace LTHDotNetCore.MinimalApi.Features.Blog;
 
 public static class BlogAdoDotNetService
 {

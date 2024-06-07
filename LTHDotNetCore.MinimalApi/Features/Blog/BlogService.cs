@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
-namespace LTHDotNetCore.MinimalApi.Feaatures.Blog
+namespace LTHDotNetCore.MinimalApi.Features.Blog
 {
     public static class BlogService
     {

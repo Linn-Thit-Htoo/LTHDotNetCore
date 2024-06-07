@@ -1,5 +1,5 @@
 using LTHDotNetCore.MinimalApi;
-using LTHDotNetCore.MinimalApi.Feaatures.Blog;
+using LTHDotNetCore.MinimalApi.Features.Blog;
 using LTHDotNetCore.Services;
 using Microsoft.AspNetCore.Http.Json;
 using Microsoft.EntityFrameworkCore;

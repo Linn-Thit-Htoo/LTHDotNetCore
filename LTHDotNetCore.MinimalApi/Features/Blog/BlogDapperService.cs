@@ -2,7 +2,7 @@
 using LTHDotNetCore.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LTHDotNetCore.MinimalApi.Feaatures.Blog
+namespace LTHDotNetCore.MinimalApi.Features.Blog
 {
     public static class BlogDapperService
     {
