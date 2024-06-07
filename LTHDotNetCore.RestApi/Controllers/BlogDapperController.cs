@@ -190,6 +190,9 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
 
             string conditions = string.Empty;
 
+            #region Patch Mehtod Validation
+
+            #endregion
             if (!string.IsNullOrEmpty(blogDataModel.Blog_Title))
             {
                 conditions += @" [Blog_Title] = @Blog_Title, ";
