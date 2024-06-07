@@ -68,6 +68,7 @@ public class AdoDotNetExample2
         Console.WriteLine($"Blog Author => {row["Blog_Author"]}");
         Console.WriteLine($"Blog Content => {row["Blog_Content"]}");
     }
+
     #endregion
 
     #region Create
