@@ -112,6 +112,7 @@ public class DapperExample2
     #endregion
 
     #region Update
+
     private void Update(int id, string title, string author, string content)
     {
         try
@@ -138,6 +139,7 @@ public class DapperExample2
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Delete
