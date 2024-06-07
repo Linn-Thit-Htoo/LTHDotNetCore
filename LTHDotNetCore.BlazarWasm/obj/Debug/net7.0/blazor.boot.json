@@ -203,14 +203,14 @@
       "netstandard.dll": "sha256-OYYuPT3JUknj4LdYIa58zF7kDB3tCnLzjCSuhEjtKXM=",
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
       "LTHDotNetCore.Models.dll": "sha256-eKPq6voOhDW8lSyez+iuWEYursYkktLG9s1Y4uA\/+7Q=",
-      "LTHDotNetCore.BlazarWasm.dll": "sha256-UIkh0jgSl7VwPhpZabYY\/BT0Zr1SKbLBXrTQN7XHdOI="
+      "LTHDotNetCore.BlazarWasm.dll": "sha256-nLxrlaqpvOLfw9Uy8fVKBseAdHA9Z4XdL6iqcmSJSpI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "LTHDotNetCore.Models.pdb": "sha256-+ByWTFnhWznSV82jWxfYFEURCW\/j3hFVfWr2hzyzvLw=",
-      "LTHDotNetCore.BlazarWasm.pdb": "sha256-8l3UYfI2WDRjmWoyyeVCJr1Q5lcfSuutOIeDTKX8AV0="
+      "LTHDotNetCore.BlazarWasm.pdb": "sha256-MvNxbjB3Jbtwkp37S06YiHhmmh7h2pwp520E5MH6ryw="
     },
     "runtime": {
       "dotnet.7.0.5.lovnq0nw8w.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",
