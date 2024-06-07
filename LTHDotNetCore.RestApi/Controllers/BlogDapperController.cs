@@ -50,6 +50,7 @@ public class BlogDapperController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+
     #endregion
 
     #region Get blog by id
