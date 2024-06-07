@@ -1,4 +1,3 @@
-using LTHDotNetCore.MinimalApi;
 using LTHDotNetCore.RestApi;
 using LTHDotNetCore.RestApi.Middlewares;
 using LTHDotNetCore.Services;

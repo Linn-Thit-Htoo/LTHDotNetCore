@@ -1,6 +1,4 @@
-﻿using LTHDotNetCore.RestApi;
-
-namespace LTHDotNetCore.MinimalApi
+﻿namespace LTHDotNetCore.RestApi
 {
     public static class NLogServiceExtension
     {
