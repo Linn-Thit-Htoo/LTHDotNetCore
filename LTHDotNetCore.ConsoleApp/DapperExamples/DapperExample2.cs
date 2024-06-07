@@ -143,6 +143,7 @@ public class DapperExample2
     #endregion
 
     #region Delete
+
     private void Delete(int id)
     {
         try
@@ -163,5 +164,6 @@ public class DapperExample2
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 }
