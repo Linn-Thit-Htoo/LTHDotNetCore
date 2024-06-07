@@ -81,6 +81,7 @@ public class EFCoreExample
     #endregion
 
     #region Update
+
     private void Update(int id, string title, string author, string content)
     {
         try
