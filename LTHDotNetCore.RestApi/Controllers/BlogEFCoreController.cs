@@ -80,6 +80,7 @@ public class BlogEFCoreController : ControllerBase
     #endregion
 
     #region Create blog
+
     [HttpPost]
     public IActionResult CreateBlog(BlogDataModel blogDataModel)
     {
