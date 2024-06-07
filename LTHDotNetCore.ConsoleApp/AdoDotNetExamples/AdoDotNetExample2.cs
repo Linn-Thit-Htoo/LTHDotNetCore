@@ -3,7 +3,7 @@ using LTHDotNetCore.Services;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace LTHDotNetCore.RestApi.AdoDotNetExamples
+namespace LTHDotNetCore.ConsoleApp.AdoDotNetExamples
 {
     public class AdoDotNetExample2
     {
@@ -31,7 +31,7 @@ namespace LTHDotNetCore.RestApi.AdoDotNetExamples
       ,[Blog_Author]
       ,[Blog_Content]
   FROM [dbo].[Tbl_blog]";
-            
+
             List<BlogDataModel> lst = _adoDotNetService.Query<BlogDataModel>(query);
 
             foreach (var item in lst)
