@@ -1,5 +1,4 @@
-﻿using LTHDotNetCore.RestApi;
-using NLog;
+﻿using NLog;
 
 namespace LTHDotNetCore.RestApi
 {
