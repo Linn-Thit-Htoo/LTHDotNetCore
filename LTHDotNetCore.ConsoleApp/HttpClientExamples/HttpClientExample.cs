@@ -71,6 +71,7 @@ public class HttpClientExample
             throw new Exception(ex.Message);
         }
     }
+
     #endregion
 
     #region Create
