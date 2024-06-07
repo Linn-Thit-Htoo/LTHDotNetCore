@@ -31,6 +31,7 @@ public class EFCoreExample
     #endregion
 
     #region Edit
+
     private void Edit(int id)
     {
         try
