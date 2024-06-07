@@ -6,7 +6,9 @@ namespace LTHDotNetCore.ConsoleApp.EFCoreExamples;
 public class EFCoreExample
 {
     private readonly AppDbContext _dbContext = new();
+
     #region Read
+
     private void Read()
     {
         try
