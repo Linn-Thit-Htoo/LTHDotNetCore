@@ -1,12 +1,9 @@
-﻿using Dapper;
-using LTHDotNetCore.ConsoleApp;
+﻿using LTHDotNetCore.ConsoleApp;
 using LTHDotNetCore.Models;
 using LTHDotNetCore.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
 using Serilog;
-using System.Data;
 
 namespace LTHDotNetCore.RestApi.Controllers
 {
