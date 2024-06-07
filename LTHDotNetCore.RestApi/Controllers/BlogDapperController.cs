@@ -23,6 +23,7 @@ public class BlogDapperController : ControllerBase
     }
 
     #region Get all blogs
+
     [HttpGet]
     public IActionResult GetBLogs()
     {
