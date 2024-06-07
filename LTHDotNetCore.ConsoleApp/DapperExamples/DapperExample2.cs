@@ -52,6 +52,7 @@ public class DapperExample2
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Edit
