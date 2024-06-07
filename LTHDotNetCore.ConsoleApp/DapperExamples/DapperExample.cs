@@ -14,6 +14,7 @@ public class DapperExample
         UserID = "sa",
         Password = "sa@123",
     };
+
     public void Run()
     {
         Read();
@@ -56,9 +57,11 @@ public class DapperExample
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Edit
+
     private void Edit(int id)
     {
         try
@@ -91,6 +94,7 @@ public class DapperExample
             Console.WriteLine(ex.Message);
         }
     }
+
     #endregion
 
     #region Create
