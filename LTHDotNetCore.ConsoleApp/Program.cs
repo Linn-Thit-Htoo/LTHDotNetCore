@@ -1,9 +1,9 @@
 ﻿using Azure.Core;
-using LTHDotNetCore.ConsoleApp.AdoDotNetExamples;
-using LTHDotNetCore.ConsoleApp.DapperExamples;
-using LTHDotNetCore.ConsoleApp.HttpClientExamples;
-using LTHDotNetCore.ConsoleApp.RefitExamples;
-using LTHDotNetCore.ConsoleApp.RestClientExamples;
+using LTHDotNetCore.RestApi.AdoDotNetExamples;
+using LTHDotNetCore.RestApi.DapperExamples;
+using LTHDotNetCore.RestApi.HttpClientExamples;
+using LTHDotNetCore.RestApi.RefitExamples;
+using LTHDotNetCore.RestApi.RestClientExamples;
 
 //AdoDotNetExample2 adoDotNetExample = new();
 //adoDotNetExample.Run();

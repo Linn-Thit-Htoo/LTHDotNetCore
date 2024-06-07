@@ -1,8 +1,8 @@
-﻿using LTHDotNetCore.ConsoleApp.Models;
+﻿using LTHDotNetCore.RestApi.Models;
 using System.Data.SqlClient;
 using LTHDotNetCore.Services;
 
-namespace LTHDotNetCore.ConsoleApp.DapperExamples
+namespace LTHDotNetCore.RestApi.DapperExamples
 {
     public class DapperExample2
     {

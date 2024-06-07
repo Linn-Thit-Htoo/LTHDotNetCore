@@ -1,9 +1,9 @@
-﻿using LTHDotNetCore.ConsoleApp.Models;
+﻿using LTHDotNetCore.RestApi.Models;
 using Newtonsoft.Json;
 using System.Text;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace LTHDotNetCore.ConsoleApp.HttpClientExamples
+namespace LTHDotNetCore.RestApi.HttpClientExamples
 {
     public class HttpClientExample
     {

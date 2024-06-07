@@ -1,7 +1,7 @@
 ﻿using LTHDotNetCore.RestApi;
 using NLog;
 
-namespace LTHDotNetCore.ConsoleApp
+namespace LTHDotNetCore.RestApi
 {
     public class LoggerManager : ILoggerManager
     {

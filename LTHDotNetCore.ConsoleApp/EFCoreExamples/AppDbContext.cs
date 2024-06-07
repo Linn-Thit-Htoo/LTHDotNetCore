@@ -1,8 +1,8 @@
-﻿using LTHDotNetCore.ConsoleApp.Models;
+﻿using LTHDotNetCore.RestApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Data.SqlClient;
 
-namespace LTHDotNetCore.ConsoleApp.EFCoreExamples
+namespace LTHDotNetCore.RestApi.EFCoreExamples
 {
     public class AppDbContext : DbContext
     {

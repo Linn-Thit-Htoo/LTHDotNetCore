@@ -1,7 +1,7 @@
-﻿using LTHDotNetCore.ConsoleApp.Models;
+﻿using LTHDotNetCore.RestApi.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LTHDotNetCore.ConsoleApp.EFCoreExamples
+namespace LTHDotNetCore.RestApi.EFCoreExamples
 {
     public class EFCoreExample
     {

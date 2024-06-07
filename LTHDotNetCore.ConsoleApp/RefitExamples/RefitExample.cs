@@ -1,7 +1,7 @@
-﻿using LTHDotNetCore.ConsoleApp.Models;
+﻿using LTHDotNetCore.RestApi.Models;
 using Refit;
 
-namespace LTHDotNetCore.ConsoleApp.RefitExamples
+namespace LTHDotNetCore.RestApi.RefitExamples
 {
     public class RefitExample
     {
