@@ -211,6 +211,7 @@ VALUES (@Blog_Title, @Blog_Author ,@Blog_Content);";
             {
                 return BadRequest("Invalid Request.");
             }
+
             #endregion
 
             conditions = conditions.Substring(0, conditions.Length - 2);
