@@ -106,6 +106,7 @@ public class EFCoreExample
     #endregion
 
     #region Delete
+
     private void Delete(int id)
     {
         try
