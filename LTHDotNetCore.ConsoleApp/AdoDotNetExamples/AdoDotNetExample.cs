@@ -84,6 +84,7 @@ public class AdoDotNetExample
     #endregion
 
     #region Create
+
     private void Create(string title, string author, string content)
     {
         SqlConnectionStringBuilder sqlConnectionStringBuilder = new()
