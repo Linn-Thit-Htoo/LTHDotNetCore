@@ -1,4 +1,5 @@
-﻿using LTHDotNetCore.RestApi.Models;
+﻿using LTHDotNetCore.ConsoleApp.EFCoreExamples;
+using LTHDotNetCore.RestApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LTHDotNetCore.RestApi.EFCoreExamples

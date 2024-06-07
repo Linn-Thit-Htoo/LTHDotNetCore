@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Data.SqlClient;
 
-namespace LTHDotNetCore.RestApi.EFCoreExamples
+namespace LTHDotNetCore.ConsoleApp.EFCoreExamples
 {
     public class AppDbContext : DbContext
     {
